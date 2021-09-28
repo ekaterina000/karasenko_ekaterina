@@ -90,8 +90,19 @@ public class Task_1 implements Task_1_base {
         // 4 - восток
         // Во всех остальных случаях вернуть пустую строку
         // ------------------------------------------------------------------------------------
-        return ""; // Замените данный оператор кодом, решающим поставленную задачу.
+        switch (direction) {
+            case 1:
+                return "север";
+            case 2:
+                return "юг";
+            case 3:
+                return "запад";
+            case 4:
+                return "восток";
+        }
+        return "";
     }
+
     @Override
     public int subtask_7_if(double vx, double vy, double vz, double speed, double time, double wall) {
         // Проверить, достигнет ли снаряд, летяший из точки (0, 0, 0)
