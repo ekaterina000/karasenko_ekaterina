@@ -1,5 +1,11 @@
 package task;
 
+import java.net.MalformedURLException;
+import java.net.URISyntaxException;
+import java.net.URL;
+import java.util.HashMap;
+import java.io.File;
+
 public class WebAddressParser {
     private URL address;
 

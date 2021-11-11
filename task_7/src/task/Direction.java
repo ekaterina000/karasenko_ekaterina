@@ -1,19 +1,28 @@
 package task;
 
-public class Direction {
-    North(0, -1) ,
-    West(-1, 0),
-    South(0, 1),
-    East(1, 0);
+public enum Direction {
+    North{
+        public Vector2 move(Vector2 start, double distance){
+            return new Vector2(start.getX()+0,start.getY()-distance);
+        }
+    },
+    West{
+        public Vector2 move(Vector2 start, double distance){
+            return new Vector2(start.getX()-distance,start.getY()+0);
+        }
+    },
+    South{
+        public Vector2 move(Vector2 start, double distance){
+            return new Vector2(start.getX()+0,start.getY()+distance);
+        }
+    },
+    East{
+        public Vector2 move(Vector2 start, double distance){
+            return new Vector2(start.getX()+distance,start.getY()+0);
+        }
+    };
 
-    private int xPoints;
-    private int yPoints;
 
-    Direction(int xPoints, int yPoints) {
-        this.xPoints = xPoints;
-        this.yPoints = yPoints;
-    }
-    public Vector2 move(Vector2 start, double distance) {
-        return new Vector2(start.getX() + (distance * xPoints), start.getY() + (distance * yPoints));
-    }
+    public abstract Vector2 move(Vector2 start, double distance);
+
 }

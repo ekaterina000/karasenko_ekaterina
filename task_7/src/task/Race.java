@@ -1,6 +1,6 @@
 package task;
 
-public class Race {
+public enum Race {
     Orc(6,12,2),
     Elf(2,9,9),
     Dwarf(6,10,4),
@@ -11,15 +11,21 @@ public class Race {
     private int health;
     private int dexterity;
 
-    Race(int strength, int health, int dexterity) {
+    Race(int strength, int health, int dexterity){
         this.strength = strength;
         this.health = health;
         this.dexterity = dexterity;
     }
 
-    public int strength() { return strength; }
+    public int strength(){
+        return strength;
+    }
 
-    public int health() { return health; }
+    public int health(){
+        return health;
+    }
 
-    public int dexterity() { return dexterity; }
+    public int dexterity(){
+        return dexterity;
+    }
 }
