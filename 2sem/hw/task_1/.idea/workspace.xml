@@ -38,41 +38,52 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.CrateNewDoubleLinkedList">
-    <configuration name="Task1_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Task1_Tests.DoubleLinkedList_checkGetSize">
+    <configuration name="Task1_Tests.DoubleLinkedList_checkGetSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.CrateNewDoubleLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="CrateNewDoubleLinkedList" />
+      <option name="METHOD_NAME" value="DoubleLinkedList_checkGetSize" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.DoubleLinkedList_CheckIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.GettingErrorWhenTryingToGetItemNumberOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="DoubleLinkedList_CheckIsEmpty" />
+      <option name="METHOD_NAME" value="GettingErrorWhenTryingToGetItemNumberOne" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.crateList_CrateEmptyList_EmptyIsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.PushFrontToEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="crateList_CrateEmptyList_EmptyIsTrue" />
+      <option name="METHOD_NAME" value="PushFrontToEmptyList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1_Tests.getSizeFromEmptyDoubleLinkedList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="getSizeFromEmptyDoubleLinkedList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1_Tests.getSize_DoubleLinkedList_checkGetSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="getSize_DoubleLinkedList_checkGetSize" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -80,10 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Task1_Tests.CrateNewDoubleLinkedList" />
-        <item itemvalue="JUnit.Task1_Tests.crateList_CrateEmptyList_EmptyIsTrue" />
-        <item itemvalue="JUnit.Task1_Tests.DoubleLinkedList_CheckIsEmpty" />
-        <item itemvalue="JUnit.Task1_Tests" />
+        <item itemvalue="JUnit.Task1_Tests.DoubleLinkedList_checkGetSize" />
+        <item itemvalue="JUnit.Task1_Tests.getSize_DoubleLinkedList_checkGetSize" />
+        <item itemvalue="JUnit.Task1_Tests.GettingErrorWhenTryingToGetItemNumberOne" />
+        <item itemvalue="JUnit.Task1_Tests.getSizeFromEmptyDoubleLinkedList" />
+        <item itemvalue="JUnit.Task1_Tests.PushFrontToEmptyList" />
       </list>
     </recent_temporary>
   </component>
