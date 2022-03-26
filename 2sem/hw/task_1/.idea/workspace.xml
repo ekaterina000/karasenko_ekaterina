@@ -38,7 +38,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests">
+  <component name="RunManager" selected="JUnit.Task1_Tests.DoubleLinkedList_checkIsEmpty">
     <configuration name="Task1_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -48,21 +48,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.DoubleLinkedList_PushFrontToEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.DoubleLinkedList_PushBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="DoubleLinkedList_PushFrontToEmptyList" />
+      <option name="METHOD_NAME" value="DoubleLinkedList_PushBack" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.DoubleLinkedList_checkGetSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.DoubleLinkedList_checkIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="DoubleLinkedList_checkGetSize" />
+      <option name="METHOD_NAME" value="DoubleLinkedList_checkIsEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,11 +78,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.pushFront_PushFrontToEmptyList_EmptyIsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.crateList_CrateEmptyList_EmptyIsTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="pushFront_PushFrontToEmptyList_EmptyIsFalse" />
+      <option name="METHOD_NAME" value="crateList_CrateEmptyList_EmptyIsTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,11 +90,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Task1_Tests" />
-        <item itemvalue="JUnit.Task1_Tests.pushFront_PushFrontToEmptyList_EmptyIsFalse" />
-        <item itemvalue="JUnit.Task1_Tests.DoubleLinkedList_PushFrontToEmptyList" />
+        <item itemvalue="JUnit.Task1_Tests.DoubleLinkedList_checkIsEmpty" />
+        <item itemvalue="JUnit.Task1_Tests.crateList_CrateEmptyList_EmptyIsTrue" />
         <item itemvalue="JUnit.Task1_Tests.DoubleLinkedList_pushFront" />
-        <item itemvalue="JUnit.Task1_Tests.DoubleLinkedList_checkGetSize" />
+        <item itemvalue="JUnit.Task1_Tests" />
+        <item itemvalue="JUnit.Task1_Tests.DoubleLinkedList_PushBack" />
       </list>
     </recent_temporary>
   </component>
@@ -108,20 +108,6 @@
       <updated>1648219864545</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/Task1_Tests.java</url>
-          <line>9</line>
-          <properties class="Task1_Tests" method="DoubleLinkedList_PushFrontToEmptyList">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/127_Karasenko_task_1$Task1_Tests_DoubleLinkedList_CheckIsEmpty.ic" NAME="Task1_Tests.DoubleLinkedList_CheckIsEmpty Coverage Results" MODIFIED="1648220856743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
