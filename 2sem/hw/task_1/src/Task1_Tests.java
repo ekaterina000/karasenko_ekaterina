@@ -13,5 +13,4 @@ public class Task1_Tests extends Assert{
         list.pushBack(1);
         assertFalse(list.isEmpty());
     }
-
 }
