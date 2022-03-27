@@ -167,7 +167,17 @@ public class Task1_Tests extends Assert {
         array.resize(10);
         assertEquals(10, array.getSize());
     }
-
+    @Test
+    public void index_GetIndex_CheckException(){
+        DynamicArray<Integer> array = new DynamicArray<>(5);
+        try {
+            array.get(7);
+            fail();
+        }
+        catch (IndexOutOfBoundsException some) {
+            assertEquals("Index out of bounds", some.getMessage());
+        }
+    }
 }
 
 
