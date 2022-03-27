@@ -33,5 +33,6 @@ public class Task1_Tests extends Assert {
         int head = ((Node<Integer>)list.getHead()).getData();
         assertEquals(1, head);
     }
+
 }
 
