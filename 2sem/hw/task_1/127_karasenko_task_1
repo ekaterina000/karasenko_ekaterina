@@ -7,3 +7,5 @@ DoubleLinkedList | 76 | # недостающая строчка добавлен
 DoubleLinkedList | 28 | cur = cur.getPrev();                    -> cur = cur.getNext();                   | pushFront_PushFrontList_CheckValues
 DoubleLinkedList | 47 | node.getPrev().setPrev(node.getNext()); -> node.getPrev().setNext(node.getNext());| remove_RemoveElement_CheckValue
 DoubleLinkedList | 48  |node.getNext().setNext(node.getPrev()); -> node.getNext().setPrev(node.getPrev());| remove_RemoveElement_CheckValue
+
+DynamicArray | 11 | size = 1 -> size = DefaultSize | createArray_CreateArray_CheckSize
