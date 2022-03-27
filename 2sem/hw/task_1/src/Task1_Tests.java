@@ -291,12 +291,16 @@ public class Task1_Tests extends Assert {
         }
     }
     @Test
-    public void popBack_PopBack_CountOfArray(){
+    public void remove_RemoveBounds_CheckException(){
         DynamicArray<Integer> array = new DynamicArray<>(5);
-        array.popBack();
-        assertEquals(4, array.getSize());
+        try {
+            array.remove(6);
+            fail();
+        }
+        catch (Exception some) {
+            assertEquals("Index out of bounds", some.getMessage());
+        }
     }
-
 }
 
 
