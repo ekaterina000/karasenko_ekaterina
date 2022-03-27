@@ -33,6 +33,14 @@ public class Task1_Tests extends Assert {
         int head = ((Node<Integer>)list.getHead()).getData();
         assertEquals(1, head);
     }
-
+    @Test
+    public void remove_PushFrontList_CheckSize() {
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
+        list.pushFront(2);
+        list.pushFront(3);
+        list.remove(list.get(0));
+        assertEquals(2, list.getSize());
+    }
 }
 
