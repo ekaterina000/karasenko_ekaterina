@@ -186,9 +186,21 @@ public class Task1_Tests extends Assert {
             fail();
         }
         catch (IndexOutOfBoundsException some) {
-            assertEquals("Index out of border", some.getMessage());
+            assertEquals("Index out of bounds", some.getMessage());
         }
     }
+    @Test
+    public void set_SetIndexBounds_CheckException(){
+        DynamicArray<Integer> array = new DynamicArray<>(5);
+        try {
+            array.set(6,10);
+            fail();
+        }
+        catch (IndexOutOfBoundsException some) {
+            assertEquals("Index out of bounds", some.getMessage());
+        }
+    }
+
 }
 
 
