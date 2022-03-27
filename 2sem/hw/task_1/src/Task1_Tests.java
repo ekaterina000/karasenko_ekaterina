@@ -56,6 +56,5 @@ public class Task1_Tests extends Assert {
         list1.insertListAfter(list1.get(0), list2);
         assertEquals(6, list1.getSize());
     }
-
 }
 
