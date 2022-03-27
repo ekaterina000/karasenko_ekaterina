@@ -1,3 +1,5 @@
-DoubleLinkedList | 11 | return dummy == dummy;          -> return size == 0;              | pushFront_pushFrontList_EmptyIsFalse
-DoubleLinkedList | 24 | if(index < 0 || index > size)   -> if(index < 0 || index >= size) | pushFront_PushFrontList_TryToGetError
-DoubleLinkedList | 63 | # недостающая строчка добавлена -> size += list.getSize();        | insert_insertListAfterFirst_SizeCorrect
+DoubleLinkedList | 11 | return dummy == dummy;                  -> return size == 0;                      | pushFront_pushFrontList_EmptyIsFalse
+DoubleLinkedList | 24 | if(index < 0 || index > size)           -> if(index < 0 || index >= size)         | pushFront_PushFrontList_TryToGetError
+DoubleLinkedList | 63 | # недостающая строчка добавлена         -> size += list.getSize();                | insert_insertListAfterFirst_SizeCorrect
+DoubleLinkedList | 55 | list.getHead().setNext(node);           -> list.getHead().setPrev(node);          | insert_insertListAfter_CheckValues
+DoubleLinkedList | 56 | list.getTail().setPrev(node.getNext()); -> list.getTail().setNext(node.getNext());| insert_insertListAfter_CheckValues
