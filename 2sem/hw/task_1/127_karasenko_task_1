@@ -3,3 +3,4 @@ DoubleLinkedList | 24 | if(index < 0 || index > size)           -> if(index < 0 
 DoubleLinkedList | 63 | # недостающая строчка добавлена         -> size += list.getSize();                | insert_insertListAfterFirst_SizeCorrect
 DoubleLinkedList | 55 | list.getHead().setNext(node);           -> list.getHead().setPrev(node);          | insert_insertListAfter_CheckValues
 DoubleLinkedList | 56 | list.getTail().setPrev(node.getNext()); -> list.getTail().setNext(node.getNext());| insert_insertListAfter_CheckValues
+DoubleLinkedList | 76 | # недостающая строчка добавлена         -> size += list.getSize();                | insert_insertListBefore_SizeCorrect
