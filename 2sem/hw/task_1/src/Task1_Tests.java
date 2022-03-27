@@ -42,6 +42,20 @@ public class Task1_Tests extends Assert {
         list.remove(list.get(0));
         assertEquals(2, list.getSize());
     }
+    @Test
+    public void insert_insertListAfterFirst_SizeCorrect() {
+        DoubleLinkedList<Integer> list1 = new DoubleLinkedList<>();
+        list1.pushFront(1);
+        list1.pushFront(2);
+        list1.pushFront(3);
+
+        DoubleLinkedList<Integer> list2 = new DoubleLinkedList<>();
+        list2.pushFront(4);
+        list2.pushFront(5);
+        list2.pushFront(6);
+        list1.insertListAfter(list1.get(0), list2);
+        assertEquals(6, list1.getSize());
+    }
 
 }
 
