@@ -127,5 +127,6 @@ public class Task1_Tests extends Assert {
         num1 = ((Node<Integer>)list.get(3)).getData();
         assertEquals(4, num1);
     }
+
 }
 
