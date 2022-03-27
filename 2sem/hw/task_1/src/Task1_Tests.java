@@ -1,6 +1,9 @@
 import org.junit.*;
 
 public class Task1_Tests extends Assert {
+
+    //DoubleLinkedList
+
     @Test
     public void create_createList_EmptyIsTrue() {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
@@ -13,6 +16,7 @@ public class Task1_Tests extends Assert {
         list.pushFront(1);
         assertFalse(list.isEmpty());
     }
+
     @Test
     public void pushFront_PushFrontList_TryToGetError() {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
@@ -20,19 +24,20 @@ public class Task1_Tests extends Assert {
         try {
             list.get(1);
             fail();
-        }
-        catch (IndexOutOfBoundsException e) {
+        } catch (IndexOutOfBoundsException e) {
             assertTrue(true);
         }
     }
+
     @Test
-    public  void head_PushFrontList_GetHead(){
+    public void head_PushFrontList_GetHead() {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
         list.pushFront(1);
         list.pushFront(2);
-        int head = ((Node<Integer>)list.getHead()).getData();
+        int head = ((Node<Integer>) list.getHead()).getData();
         assertEquals(1, head);
     }
+
     @Test
     public void remove_PushFrontList_CheckSize() {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
@@ -42,6 +47,7 @@ public class Task1_Tests extends Assert {
         list.remove(list.get(0));
         assertEquals(2, list.getSize());
     }
+
     @Test
     public void insert_insertListAfterFirst_SizeCorrect() {
         DoubleLinkedList<Integer> list1 = new DoubleLinkedList<>();
@@ -56,6 +62,7 @@ public class Task1_Tests extends Assert {
         list1.insertListAfter(list1.get(0), list2);
         assertEquals(6, list1.getSize());
     }
+
     @Test
     public void insert_insertListAfter_HeadCorrect() {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
@@ -67,11 +74,12 @@ public class Task1_Tests extends Assert {
         list1.pushFront(5);
         list1.pushFront(6);
         list1.insertListAfter(list.get(0), list1);
-        int head = ((Node<Integer>)list.getHead()).getData();
+        int head = ((Node<Integer>) list.getHead()).getData();
         assertEquals(1, head);
     }
+
     @Test
-    public void insert_insertListAfter_CheckValues(){
+    public void insert_insertListAfter_CheckValues() {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
         list.pushFront(1);
         list.pushFront(5);
@@ -83,19 +91,20 @@ public class Task1_Tests extends Assert {
         list1.pushFront(4);
         list.insertListAfter(list.get(0), list1);
 
-        int num1 = ((Node<Integer>)list.get(0)).getData();
+        int num1 = ((Node<Integer>) list.get(0)).getData();
         assertEquals(1, num1);
-        num1 = ((Node<Integer>)list.get(1)).getData();
+        num1 = ((Node<Integer>) list.get(1)).getData();
         assertEquals(2, num1);
-        num1 = ((Node<Integer>)list.get(2)).getData();
+        num1 = ((Node<Integer>) list.get(2)).getData();
         assertEquals(3, num1);
-        num1 = ((Node<Integer>)list.get(3)).getData();
+        num1 = ((Node<Integer>) list.get(3)).getData();
         assertEquals(4, num1);
-        num1 = ((Node<Integer>)list.get(4)).getData();
+        num1 = ((Node<Integer>) list.get(4)).getData();
         assertEquals(5, num1);
-        num1 = ((Node<Integer>)list.get(5)).getData();
+        num1 = ((Node<Integer>) list.get(5)).getData();
         assertEquals(6, num1);
     }
+
     @Test
     public void insert_insertListBefore_SizeCorrect() {
         DoubleLinkedList<Integer> list1 = new DoubleLinkedList<>();
@@ -110,32 +119,44 @@ public class Task1_Tests extends Assert {
         list1.insertListBefore(list1.get(0), list2);
         assertEquals(6, list1.getSize());
     }
+
     @Test
-    public void pushFront_PushFrontList_CheckValues(){
+    public void pushFront_PushFrontList_CheckValues() {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
         list.pushFront(1);
         list.pushFront(2);
         list.pushFront(3);
         list.pushFront(4);
 
-        int num1 = ((Node<Integer>)list.get(0)).getData();
+        int num1 = ((Node<Integer>) list.get(0)).getData();
         assertEquals(1, num1);
-        num1 = ((Node<Integer>)list.get(1)).getData();
+        num1 = ((Node<Integer>) list.get(1)).getData();
         assertEquals(2, num1);
-        num1 = ((Node<Integer>)list.get(2)).getData();
+        num1 = ((Node<Integer>) list.get(2)).getData();
         assertEquals(3, num1);
-        num1 = ((Node<Integer>)list.get(3)).getData();
+        num1 = ((Node<Integer>) list.get(3)).getData();
         assertEquals(4, num1);
     }
+
     @Test
-    public void remove_RemoveElement_CheckValue(){
+    public void remove_RemoveElement_CheckValue() {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
         list.pushFront(1);
         list.pushFront(2);
         list.pushFront(3);
         list.remove(list.get(0));
-        int num = ((Node<Integer>)list.get(0)).getData();
+        int num = ((Node<Integer>) list.get(0)).getData();
         assertEquals(2, num);
     }
+
+    //DynamicArray
+
+    @Test
+    public void createArray_NewArray_CheckSize(){
+        DynamicArray<Integer> array = new DynamicArray<>(5);
+        assertEquals(5, array.getSize());
+    }
+
 }
+
 
