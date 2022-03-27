@@ -8,4 +8,6 @@ DoubleLinkedList | 28 | cur = cur.getPrev();                    -> cur = cur.get
 DoubleLinkedList | 47 | node.getPrev().setPrev(node.getNext()); -> node.getPrev().setNext(node.getNext());| remove_RemoveElement_CheckValue
 DoubleLinkedList | 48  |node.getNext().setNext(node.getPrev()); -> node.getNext().setPrev(node.getPrev());| remove_RemoveElement_CheckValue
 
-DynamicArray | 11 | size = 1 -> size = DefaultSize | createArray_CreateArray_CheckSize
+DynamicArray | 11 | size = 1        -> size = DefaultSize | createArray_CreateArray_CheckSize
+DynamicArray | 21 | if(newSize > 0) -> if(newSize < 0)    | resize_ResizeArray_CheckSize
+DynamicArray | 27 |newSize = size   -> size = newSize     | resize_ResizeArray_CheckSize
