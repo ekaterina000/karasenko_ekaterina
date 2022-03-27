@@ -25,6 +25,13 @@ public class Task1_Tests extends Assert {
             assertTrue(true);
         }
     }
-
+    @Test
+    public  void head_PushFrontList_GetHead(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
+        list.pushFront(2);
+        int head = ((Node<Integer>)list.getHead()).getData();
+        assertEquals(1, head);
+    }
 }
 
