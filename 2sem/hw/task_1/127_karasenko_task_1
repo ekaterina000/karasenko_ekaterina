@@ -5,3 +5,5 @@ DoubleLinkedList | 55 | list.getHead().setNext(node);           -> list.getHead(
 DoubleLinkedList | 56 | list.getTail().setPrev(node.getNext()); -> list.getTail().setNext(node.getNext());| insert_insertListAfter_CheckValues
 DoubleLinkedList | 76 | # недостающая строчка добавлена         -> size += list.getSize();                | insert_insertListBefore_SizeCorrect
 DoubleLinkedList | 28 | cur = cur.getPrev();                    -> cur = cur.getNext();                   | pushFront_PushFrontList_CheckValues
+DoubleLinkedList | 47 | node.getPrev().setPrev(node.getNext()); -> node.getPrev().setNext(node.getNext());| remove_RemoveElement_CheckValue
+DoubleLinkedList | 48  |node.getNext().setNext(node.getPrev()); -> node.getNext().setPrev(node.getPrev());| remove_RemoveElement_CheckValue
