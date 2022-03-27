@@ -42,5 +42,6 @@ public class Task1_Tests extends Assert {
         list.remove(list.get(0));
         assertEquals(2, list.getSize());
     }
+
 }
 
