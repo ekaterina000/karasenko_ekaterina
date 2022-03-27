@@ -14,3 +14,4 @@ DynamicArray | 27 | newSize = size                -> size = newSize             
 DynamicArray | 30 | if(index < 0 || index > size) -> if(index < 0 || index >= size)| index_GetIndexBorder_CheckException
 DynamicArray | 35 | if(index < 0 || index > size) -> if(index < 0 || index >= size)| set_SetIndexBorder_CheckException
 DynamicArray | 40 | if(index < 0 || index > size) -> if(index < 0 || index >= size)| insert_InsertBorder_CheckException
+DynamicArray | 15 | data = new Object[capacity]   -> data = new Object[size]       | set_SetNumbers_CheckValues
