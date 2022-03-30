@@ -42,4 +42,6 @@ public class Task3_Tests extends Assert {
         sorter.sort(arr, new TestComparator());
         assertArrayEquals(new Integer[]{2, 4}, arr);
     }
+
+
 }
