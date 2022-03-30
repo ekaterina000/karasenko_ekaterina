@@ -22,4 +22,11 @@ public class Task3_Tests extends Assert {
         sorter.sort(arr, new TestComparator());
         assertArrayEquals(new Integer[]{3,3,9}, arr);
     }
+    @Test
+    public void quickSort_UnsortedArray_ArrayIsCorrect2(){
+        Integer[] arr = new Integer[]{2,4,2,3,4};
+        QuickSort<Integer> sorter = new QuickSort();
+        sorter.sort(arr, new TestComparator());
+        assertArrayEquals(new Integer[]{2,2,3,4,4}, arr);
+    }
 }
