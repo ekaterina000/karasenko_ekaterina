@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/127_karasenko_task_1" beforeDir="false" afterPath="$PROJECT_DIR$/127_karasenko_task_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_1/DoubleLinkedList.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_1/DummyNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_1/DynamicArray.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_1/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_1/Node.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/task_1/Task1_Tests.class" beforeDir="false" />
+    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="error corrected">
       <change beforePath="$PROJECT_DIR$/src/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/task_1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +75,69 @@
       <option name="presentableId" value="Default" />
       <updated>1648646126534</updated>
     </task>
+    <task id="LOCAL-00001" summary="hw">
+      <created>1648646856266</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648646856266</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add basic class of tests">
+      <created>1648646889811</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648646889811</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add create_createList_EmptyIsTrue">
+      <created>1648646962336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648646962336</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test complete">
+      <created>1648646999407</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648646999407</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add create_createList_EmptyIsFalse">
+      <created>1648647075774</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648647075774</updated>
+    </task>
+    <task id="LOCAL-00006" summary="error corrected">
+      <created>1648647200262</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648647200262</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="hw" />
+    <MESSAGE value="add basic class of tests" />
+    <MESSAGE value="add create_createList_EmptyIsTrue" />
+    <MESSAGE value="test complete" />
+    <MESSAGE value="add create_createList_EmptyIsFalse" />
+    <MESSAGE value="error corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="error corrected" />
   </component>
 </project>
