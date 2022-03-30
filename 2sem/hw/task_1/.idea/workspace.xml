@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/127_karasenko_task_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLinkedList.java" afterDir="false" />
+    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="Создан файл для отчетов об ошибках">
       <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +50,37 @@
       <option name="presentableId" value="Default" />
       <updated>1648656395306</updated>
     </task>
+    <task id="LOCAL-00001" summary="Создан базовый класс тестов">
+      <created>1648658511382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648658511382</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Создан файл для отчетов об ошибках">
+      <created>1648658592123</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648658592123</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Создан базовый класс тестов" />
+    <MESSAGE value="Создан файл для отчетов об ошибках" />
+    <option name="LAST_COMMIT_MESSAGE" value="Создан файл для отчетов об ошибках" />
   </component>
 </project>
