@@ -68,4 +68,12 @@ public class Task2_Tests extends Assert {
         sorter.sort(insertionArray, new TestComparator());
         assertArrayEquals(new Integer[]{7, 32, 87}, insertionArray);
     }
+    @Test
+    public void InsertionSort_UnsortedArray_ArrayIsCorrect() {
+        InsertionSort<Integer> sorter = new InsertionSort<>();
+        Integer[] insertionArray = {784, 12, 36};
+        sorter.sort(insertionArray, new TestComparator());
+        assertArrayEquals(new Integer[]{12, 36, 784}, insertionArray);
+    }
 }
+
