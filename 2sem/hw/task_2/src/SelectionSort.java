@@ -8,7 +8,7 @@ public class SelectionSort<T> implements Sort<T> {
                     maxInd = sortedSize;
             }
             T tmp = data[data.length - 1 - sortedSize];
-            data[data.length - sortedSize] = data[maxInd];
+            data[data.length - 1 - sortedSize] = data[maxInd];
             data[maxInd] = tmp;
         }
     }
