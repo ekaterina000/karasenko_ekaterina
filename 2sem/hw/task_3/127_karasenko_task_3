@@ -1,1 +1,2 @@
 QuickSort|12|int base = split(data, e,b); -> int base = split(data, b,e);|quickSort_UnsortedArray_ArrayIsCorrect
+QuickSort|24|swap(data, left, baseElem); -> swap(data, left-1, baseElem);|quickSort_UnsortedArray_ArrayIsCorrect
