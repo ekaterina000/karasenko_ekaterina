@@ -42,7 +42,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.remove_removeInList_removeElement">
+  <component name="RunManager" selected="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckHead">
     <configuration name="Task1_Tests.getTail_tailFromList_checkTail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,11 +73,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.pushFront_pushFrontList_checkNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="pushFront_pushFrontList_checkNumber" />
+      <option name="METHOD_NAME" value="insertListAfter_CreateTwoListsAndUnite_CheckHead" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckHead" />
         <item itemvalue="JUnit.Task1_Tests.remove_removeInList_removeElement" />
         <item itemvalue="JUnit.Task1_Tests.get_PushBackList_CheckFirst" />
         <item itemvalue="JUnit.Task1_Tests.get_PushFrontList_CheckFirst" />
         <item itemvalue="JUnit.Task1_Tests.getTail_tailFromList_checkTail" />
-        <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontList_checkNumber" />
       </list>
     </recent_temporary>
   </component>

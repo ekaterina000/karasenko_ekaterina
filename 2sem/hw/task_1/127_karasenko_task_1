@@ -5,3 +5,4 @@ DoubleLinkedList|20|return dummy.getNext() -> return dummy.getPrev()|getTail_tai
 DoubleLinkedList|44|return insertAfter(getHead(), data) -> return insertBefore(getHead(), data)|getHead_headFromList_checkHead
 DoubleLinkedList|41|return insertBefore(getTail(), data) -> return insertAfter(getTail(), data)|getHead_headFromList_checkHead
 DoubleLinkedList|33|--size -> ++size|get_PushFrontList_CheckFirst
+DoubleLinkedList|63| # пропущена строчка -> size += list.getSize()|insertListAfter_CreateTwoListsAndUnite_CheckHead

@@ -99,6 +99,7 @@ public class Task1_Tests extends Assert {
         int num = ((Node<Integer>)list.get(0)).getData();
         assertEquals(2, num);
     }
+
     @Test
     public void remove_removeInList_removeElement(){
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
