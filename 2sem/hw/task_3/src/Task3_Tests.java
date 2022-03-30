@@ -71,4 +71,5 @@ public class Task3_Tests extends Assert {
         assertArrayEquals(new Integer[]{1,1,2,2,3,7,7,7}, arr);
     }
 
+
 }
