@@ -28,5 +28,15 @@ public class Task1_Tests extends Assert {
         assertTrue(1 == list.getSize());
     }
 
-    
+    @Test
+    public void getNumber_getNumberList_tryToGetAnotherNumber(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
+        try {
+            list.get(2);
+            fail();
+        } catch (IndexOutOfBoundsException e){
+            assertFalse(false);
+        }
+    }
 }
