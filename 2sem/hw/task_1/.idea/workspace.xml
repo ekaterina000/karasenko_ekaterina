@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment=" error corrected">
+    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/127_karasenko_task_1" beforeDir="false" afterPath="$PROJECT_DIR$/127_karasenko_task_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/127_karasenko_task_1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
     </list>
@@ -25,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="276goMQ8NAj3CX3BWwLwuWCRnfn" />
+  <component name="ProjectId" id="2771chh19iY5679S6He47dR45jM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,371 +38,21 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../127_karasenko_ekaterina/2sem/hw/task_1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.get_PushBackList_CheckFirst">
-    <configuration name="Task1_Tests.get_PushBackList_CheckFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="get_PushBackList_CheckFirst" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.insertListAfter_CreateTwoListsAndUnite_check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="insertListAfter_CreateTwoListsAndUnite_check" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.insertListBefore_TryToInsertListBefore_CheckValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="insertListBefore_TryToInsertListBefore_CheckValues" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.pushFront_PushFrontList_CheckValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="pushFront_PushFrontList_CheckValues" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.remove_removeElement_check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="remove_removeElement_check" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.Task1_Tests.get_PushBackList_CheckFirst" />
-        <item itemvalue="JUnit.Task1_Tests.insertListBefore_TryToInsertListBefore_CheckValues" />
-        <item itemvalue="JUnit.Task1_Tests.remove_removeElement_check" />
-        <item itemvalue="JUnit.Task1_Tests.pushFront_PushFrontList_CheckValues" />
-        <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_check" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="" />
-      <created>1648646126534</created>
+      <changelist id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="" />
+      <created>1648656395306</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648646126534</updated>
+      <updated>1648656395306</updated>
     </task>
-    <task id="LOCAL-00001" summary="hw">
-      <created>1648646856266</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1648646856266</updated>
-    </task>
-    <task id="LOCAL-00002" summary="add basic class of tests">
-      <created>1648646889811</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1648646889811</updated>
-    </task>
-    <task id="LOCAL-00003" summary="add create_createList_EmptyIsTrue">
-      <created>1648646962336</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1648646962336</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test complete">
-      <created>1648646999407</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1648646999407</updated>
-    </task>
-    <task id="LOCAL-00005" summary="add create_createList_EmptyIsFalse">
-      <created>1648647075774</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1648647075774</updated>
-    </task>
-    <task id="LOCAL-00006" summary="error corrected">
-      <created>1648647200262</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1648647200262</updated>
-    </task>
-    <task id="LOCAL-00007" summary="test complete">
-      <created>1648647255610</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1648647255610</updated>
-    </task>
-    <task id="LOCAL-00008" summary="add getSize_getSizeFromList_sizeIsCorrect">
-      <created>1648647340881</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1648647340881</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add pushFront_pushFrontList_checkNumber">
-      <created>1648647558549</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1648647558549</updated>
-    </task>
-    <task id="LOCAL-00010" summary="add getNumber_getNumberList_tryToGetAnotherNumber">
-      <created>1648647651030</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1648647651030</updated>
-    </task>
-    <task id="LOCAL-00011" summary="error corrected">
-      <created>1648648116939</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1648648116939</updated>
-    </task>
-    <task id="LOCAL-00012" summary="test complete">
-      <created>1648648148061</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1648648148061</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add getHead_headFromList_Head">
-      <created>1648648211932</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1648648211932</updated>
-    </task>
-    <task id="LOCAL-00014" summary="error corrected">
-      <created>1648648313327</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1648648313327</updated>
-    </task>
-    <task id="LOCAL-00015" summary="test complete">
-      <created>1648648504074</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1648648504074</updated>
-    </task>
-    <task id="LOCAL-00016" summary="add getHead_headFromList_checkHead">
-      <created>1648648578519</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1648648578519</updated>
-    </task>
-    <task id="LOCAL-00017" summary="add getTail_tailFromList_Tail">
-      <created>1648648874921</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1648648874921</updated>
-    </task>
-    <task id="LOCAL-00018" summary="error corrected">
-      <created>1648648960067</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1648648960067</updated>
-    </task>
-    <task id="LOCAL-00019" summary="add getTail_tailFromList_checkTail">
-      <created>1648649024729</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1648649024729</updated>
-    </task>
-    <task id="LOCAL-00020" summary="error corrected">
-      <created>1648649420782</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1648649420782</updated>
-    </task>
-    <task id="LOCAL-00021" summary="add get_PushFrontList_CheckFirst">
-      <created>1648649796665</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1648649796665</updated>
-    </task>
-    <task id="LOCAL-00022" summary="error corrected">
-      <created>1648649904466</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1648649904466</updated>
-    </task>
-    <task id="LOCAL-00023" summary="error corrected">
-      <created>1648649921827</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1648649921827</updated>
-    </task>
-    <task id="LOCAL-00024" summary="test complete">
-      <created>1648649966260</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1648649966260</updated>
-    </task>
-    <task id="LOCAL-00025" summary="add get_PushBackList_CheckFirst">
-      <created>1648650041233</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1648650041233</updated>
-    </task>
-    <task id="LOCAL-00026" summary="add remove_removeInList_removeElement">
-      <created>1648650650165</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1648650650165</updated>
-    </task>
-    <task id="LOCAL-00027" summary="add insertListAfter_CreateTwoListsAndUnite_CheckHead">
-      <created>1648652246160</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1648652246160</updated>
-    </task>
-    <task id="LOCAL-00028" summary="error corrected">
-      <created>1648652541955</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1648652541955</updated>
-    </task>
-    <task id="LOCAL-00029" summary="test complete">
-      <created>1648652567837</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1648652567837</updated>
-    </task>
-    <task id="LOCAL-00030" summary="error corrected">
-      <created>1648652727321</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1648652727321</updated>
-    </task>
-    <task id="LOCAL-00031" summary="add insertListAfter_CreateTwoListsAndUnite_CheckHead">
-      <created>1648652751960</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1648652751960</updated>
-    </task>
-    <task id="LOCAL-00032" summary="add insertListAfter_CreateTwoListsAndUnite_check">
-      <created>1648652836116</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1648652836116</updated>
-    </task>
-    <task id="LOCAL-00033" summary="error corrected">
-      <created>1648653109978</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1648653109978</updated>
-    </task>
-    <task id="LOCAL-00034" summary="error corrected">
-      <created>1648653344029</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1648653344029</updated>
-    </task>
-    <task id="LOCAL-00035" summary="add insertListAfter_CreateTwoListsAndUnitePartTwo_CheckValues">
-      <created>1648653572327</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1648653572327</updated>
-    </task>
-    <task id="LOCAL-00036" summary=" error corrected">
-      <created>1648653744168</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1648653744168</updated>
-    </task>
-    <option name="localTasksCounter" value="37" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="hw" />
-    <MESSAGE value="add basic class of tests" />
-    <MESSAGE value="add create_createList_EmptyIsTrue" />
-    <MESSAGE value="add create_createList_EmptyIsFalse" />
-    <MESSAGE value="add getSize_getSizeFromList_sizeIsCorrect" />
-    <MESSAGE value="add pushFront_pushFrontList_checkNumber" />
-    <MESSAGE value="add getNumber_getNumberList_tryToGetAnotherNumber" />
-    <MESSAGE value="add getHead_headFromList_Head" />
-    <MESSAGE value="add getHead_headFromList_checkHead" />
-    <MESSAGE value="add getTail_tailFromList_Tail" />
-    <MESSAGE value="add getTail_tailFromList_checkTail" />
-    <MESSAGE value="add get_PushFrontList_CheckFirst" />
-    <MESSAGE value="add get_PushBackList_CheckFirst" />
-    <MESSAGE value="add remove_removeInList_removeElement" />
-    <MESSAGE value="test complete" />
-    <MESSAGE value="add insertListAfter_CreateTwoListsAndUnite_CheckHead" />
-    <MESSAGE value="add insertListAfter_CreateTwoListsAndUnite_check" />
-    <MESSAGE value="add remove_removeElement_check" />
-    <MESSAGE value="error corrected" />
-    <MESSAGE value="add insertListAfter_CreateTwoListsAndUnitePartTwo_CheckValues" />
-    <MESSAGE value="add insertListBefore_TryToInsertListBefore_CheckSize" />
-    <MESSAGE value=" error corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value=" error corrected" />
   </component>
 </project>
