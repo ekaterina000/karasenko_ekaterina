@@ -12,3 +12,4 @@ HeapSort|38|siftDown(right, 2 * right + 1, 2 * right + 2, data.length); -> siftD
 HeapSort|34|siftDown(left, 2 * left, 2 * left + 1, size); -> siftDown(left, 2 * left+1, 2 * left + 2, size);|heapSort_UnsortedArray_ArrayIsCorrect3
 
 MergeSort|19|merge(buffer, sorting, begin, middle - begin, end - middle); -> merge(buffer, sorting, begin, middle - begin+1, end - middle);|mergeSort_UnsortedArray_ArrayIsCorrect
+MergeSort|35| else if (comparator.compare(from[firstFocus], from[secondFocus]) > 0) ->  else if (comparator.compare(from[firstFocus], from[secondFocus]) < 0)|mergeSort_UnsortedArray_ArrayIsCorrect
