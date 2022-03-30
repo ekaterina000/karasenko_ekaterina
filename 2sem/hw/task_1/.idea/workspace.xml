@@ -46,7 +46,7 @@
       <recent name="C:\Users\User\Desktop\127_karasenko_ekaterina1\2sem\hw\task_1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.getHead_getHeadFromList_getHeadIsCorrect">
+  <component name="RunManager" selected="JUnit.Task1_Tests.getTail_getTailFromList_getTailIsCorrect">
     <configuration name="Task1_Tests.getHead_getHeadFromList_getHeadIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,21 +57,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.isEmpty_CreateNotEmptyDLL_isEmptyFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.getTail_getTailFromList_getTailIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="isEmpty_CreateNotEmptyDLL_isEmptyFalse" />
+      <option name="METHOD_NAME" value="getTail_getTailFromList_getTailIsCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.pushBack_pushToEmptyList_checkSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.isEmpty_CreateNotEmptyDLL_isEmptyFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="pushBack_pushToEmptyList_checkSize" />
+      <option name="METHOD_NAME" value="isEmpty_CreateNotEmptyDLL_isEmptyFalse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.getTail_getTailFromList_getTailIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.getHead_getHeadFromList_getHeadIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontItem_isCorrect" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontValue_pushFrontOK" />
         <item itemvalue="JUnit.Task1_Tests.isEmpty_CreateNotEmptyDLL_isEmptyFalse" />
-        <item itemvalue="JUnit.Task1_Tests.pushBack_pushToEmptyList_checkSize" />
       </list>
     </recent_temporary>
   </component>
