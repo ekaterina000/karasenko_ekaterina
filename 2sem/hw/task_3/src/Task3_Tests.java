@@ -74,10 +74,10 @@ public class Task3_Tests extends Assert {
     //////////////MergeSort
     @Test
     public void mergeSort_UnsortedArray_ArrayIsCorrect(){
-        Integer[] arr = new Integer[]{1,2};
+        Integer[] arr = new Integer[]{7,2};
         MergeSort<Integer> sorter = new MergeSort();
         sorter.sort(arr, new TestComparator());
-        assertArrayEquals(new Integer[]{1, 2}, arr);
+        assertArrayEquals(new Integer[]{2, 7}, arr);
     }
 
 }
