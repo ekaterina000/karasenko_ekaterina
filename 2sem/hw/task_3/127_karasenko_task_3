@@ -16,3 +16,4 @@ MergeSort|35| else if (comparator.compare(from[firstFocus], from[secondFocus]) >
 MergeSort|17| mergeSortRec(sorting, buffer, begin, middle); -> mergeSortRec(buffer,sorting, begin, middle);|mergeSort_FirstUnsortedElems_ArrayIsCorrect
 MergeSort|32| to[resPos] = from[secondFocus++]; -> to[resPos++] = from[secondFocus++];|mergeSort_SortedArray_ArrayWithoutChanges
 MergeSort|18| mergeSortRec(sorting, buffer, middle + 1, end); -> mergeSortRec(buffer,sorting, middle + 1, end);|mergeSort_UnsortedArray_ArrayIsCorrect2
+MergeSort|34| to[resPos++] = from[firstFocus]; -> to[resPos++] = from[firstFocus++];|mergeSort_UnsortedArray_ArrayIsCorrect3
