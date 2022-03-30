@@ -87,5 +87,14 @@ public class Task1_Tests extends Assert {
         assertEquals(1, num);
     }
 
+    @Test
+    public void get_PushBackList_CheckFirst(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushBack(3);
+        list.pushBack(2);
+        list.pushBack(1);
 
+        int num = ((Node<Integer>)list.get(0)).getData();
+        assertEquals(1, num);
+    }
 }
