@@ -7,4 +7,3 @@ DoubleLinkedList|41|return insertBefore(getTail(), data); -> return insertBefore
 DoubleLinkedList|20|return dummy.getNext(); -> return dummy.getPrev();|getTail_getTailFromList_getTailIsCorrect
 
 
-
