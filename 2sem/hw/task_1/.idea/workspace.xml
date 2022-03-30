@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="error corrected">
+    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment=" error corrected">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/127_karasenko_task_1" beforeDir="false" afterPath="$PROJECT_DIR$/127_karasenko_task_1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLinkedList.java" afterDir="false" />
@@ -44,22 +44,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.insertListBefore_TryToInsertListBefore_CheckSize">
-    <configuration name="Task1_Tests.insertListAfter_CreateTwoListsAndUnitePartTwo_CheckValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Task1_Tests.get_PushBackList_CheckFirst">
+    <configuration name="Task1_Tests.get_PushBackList_CheckFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="insertListAfter_CreateTwoListsAndUnitePartTwo_CheckValues" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="insertListAfter_CreateTwoListsAndUnite_CheckHead" />
+      <option name="METHOD_NAME" value="get_PushBackList_CheckFirst" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,11 +65,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.insertListBefore_TryToInsertListBefore_CheckSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Task1_Tests.insertListBefore_TryToInsertListBefore_CheckValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="insertListBefore_TryToInsertListBefore_CheckSize" />
+      <option name="METHOD_NAME" value="insertListBefore_TryToInsertListBefore_CheckValues" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1_Tests.pushFront_PushFrontList_CheckValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="pushFront_PushFrontList_CheckValues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -97,11 +97,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Task1_Tests.insertListBefore_TryToInsertListBefore_CheckSize" />
-        <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnitePartTwo_CheckValues" />
-        <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_check" />
+        <item itemvalue="JUnit.Task1_Tests.get_PushBackList_CheckFirst" />
+        <item itemvalue="JUnit.Task1_Tests.insertListBefore_TryToInsertListBefore_CheckValues" />
         <item itemvalue="JUnit.Task1_Tests.remove_removeElement_check" />
-        <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckHead" />
+        <item itemvalue="JUnit.Task1_Tests.pushFront_PushFrontList_CheckValues" />
+        <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_check" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +352,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648653344029</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="add insertListAfter_CreateTwoListsAndUnitePartTwo_CheckValues">
+      <created>1648653572327</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1648653572327</updated>
+    </task>
+    <task id="LOCAL-00036" summary=" error corrected">
+      <created>1648653744168</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1648653744168</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -386,6 +400,9 @@
     <MESSAGE value="add insertListAfter_CreateTwoListsAndUnite_check" />
     <MESSAGE value="add remove_removeElement_check" />
     <MESSAGE value="error corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="error corrected" />
+    <MESSAGE value="add insertListAfter_CreateTwoListsAndUnitePartTwo_CheckValues" />
+    <MESSAGE value="add insertListBefore_TryToInsertListBefore_CheckSize" />
+    <MESSAGE value=" error corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value=" error corrected" />
   </component>
 </project>
