@@ -19,4 +19,12 @@ public class Task1_Tests extends Assert {
         list.pushFront(5);
         assertEquals(1, list.getSize());
     }
+
+    @Test
+    public void pushBack_pushToEmptyList_checkSize() {
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushBack(5);
+        assertEquals(1, list.getSize());
+    }
+    
 }
