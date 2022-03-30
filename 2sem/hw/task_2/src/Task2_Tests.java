@@ -60,4 +60,5 @@ public class Task2_Tests extends Assert {
 
         assertArrayEquals(new Integer[]{5, 10}, selectionArray);
     }
+
 }
