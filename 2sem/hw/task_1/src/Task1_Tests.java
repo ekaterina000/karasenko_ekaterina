@@ -29,19 +29,5 @@ public class Task1_Tests extends Assert {
         assertEquals(2, ((Node<Integer>) list.getHead()).getData().intValue());
     }
 
-    @Test
-    public void getHead_getHeadFromList_getHeadIsCorrect(){
-        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
-        list.pushFront(10);
-        list.pushFront(8);
-        assertEquals(8, ((Node<Integer>) list.getHead()).getData().intValue());
-    }
-    @Test
-    public void getTail_getTailFromList_getTailIsCorrect(){
-        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
-        list.pushFront(9);
-        list.pushFront(20);
-        assertEquals(20, ((Node<Integer>) list.getTail()).getData().intValue());
-    }
 
 }
