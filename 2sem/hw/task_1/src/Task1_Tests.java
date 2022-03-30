@@ -8,4 +8,10 @@ public class Task1_Tests extends Assert {
         assertTrue(list.isEmpty());
     }
 
+    @Test
+    public void create_createList_EmptyIsFalse(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushBack(1);
+        assertFalse(list.isEmpty());
+    }
 }
