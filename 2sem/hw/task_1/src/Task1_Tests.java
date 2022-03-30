@@ -13,5 +13,9 @@ public class Task1_Tests extends Assert {
         list.pushBack(1);
         assertFalse(list.isEmpty());
     }
-
+    @Test
+    public void getSize_sizeList_checkSize() {
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        assertTrue(0 == list.getSize());
+    }
 }
