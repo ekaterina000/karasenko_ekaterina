@@ -17,9 +17,9 @@ public class Task3_Tests extends Assert {
     }
     @Test
     public void quickSort_UnsortedArray_ArrayWithTwoSameElementsIsCorrect(){
-        Integer[] arr = new Integer[]{3,7,9,3};
+        Integer[] arr = new Integer[]{3,9,3};
         QuickSort<Integer> sorter = new QuickSort();
         sorter.sort(arr, new TestComparator());
-        assertArrayEquals(new Integer[]{3,3,7, 9}, arr);
+        assertArrayEquals(new Integer[]{3,3,9}, arr);
     }
 }
