@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="add remove_removeInList_removeElement">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
-    </list>
+    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="error corrected" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -294,7 +291,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648650650165</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="add insertListAfter_CreateTwoListsAndUnite_CheckHead">
+      <created>1648652246160</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1648652246160</updated>
+    </task>
+    <task id="LOCAL-00028" summary="error corrected">
+      <created>1648652541955</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1648652541955</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -321,10 +332,11 @@
     <MESSAGE value="add getTail_tailFromList_Tail" />
     <MESSAGE value="add getTail_tailFromList_checkTail" />
     <MESSAGE value="add get_PushFrontList_CheckFirst" />
-    <MESSAGE value="error corrected" />
     <MESSAGE value="test complete" />
     <MESSAGE value="add get_PushBackList_CheckFirst" />
     <MESSAGE value="add remove_removeInList_removeElement" />
-    <option name="LAST_COMMIT_MESSAGE" value="add remove_removeInList_removeElement" />
+    <MESSAGE value="add insertListAfter_CreateTwoListsAndUnite_CheckHead" />
+    <MESSAGE value="error corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="error corrected" />
   </component>
 </project>
