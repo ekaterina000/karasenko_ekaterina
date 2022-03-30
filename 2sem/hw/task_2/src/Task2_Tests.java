@@ -51,4 +51,13 @@ public class Task2_Tests extends Assert {
         assertArrayEquals(new Integer[]{1, 2, 4}, selectionArray);
     }
 
+    @Test
+    public void SelectionSort_UnsortedArray_ArrayIsCorrect() {
+        SelectionSort<Integer> sorter = new SelectionSort<>();
+        Integer[] selectionArray = {10, 5};
+
+        sorter.sort(selectionArray, new TestComparator());
+
+        assertArrayEquals(new Integer[]{5, 10}, selectionArray);
+    }
 }
