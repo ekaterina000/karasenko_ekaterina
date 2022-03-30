@@ -95,10 +95,10 @@ public class Task3_Tests extends Assert {
     }
     @Test
     public void mergeSort_UnsortedArray_ArrayIsCorrect2(){
-        Integer[] arr = new Integer[]{2,3,2,1};
+        Integer[] arr = new Integer[]{1,3,1,4};
         MergeSort<Integer> sorter = new MergeSort();
         sorter.sort(arr, new TestComparator());
-        assertArrayEquals(new Integer[]{1,2,2,3}, arr);
+        assertArrayEquals(new Integer[]{1,1,3,4}, arr);
     }
 
 }
