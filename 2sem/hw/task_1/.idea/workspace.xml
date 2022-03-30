@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="add getTail_getTailFromList_getTailIsCorrect">
-      <change beforePath="$PROJECT_DIR$/../task_3/127_karasenko_task_3" beforeDir="false" afterPath="$PROJECT_DIR$/../task_3/127_karasenko_task_3" afterDir="false" />
-    </list>
+    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="add getTail_getTailFromList_getTailIsCorrect" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +33,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
