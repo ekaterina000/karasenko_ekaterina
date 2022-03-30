@@ -56,6 +56,7 @@ public class Task1_Tests extends Assert {
         int y = ((Node<Integer>) list.getHead()).getData();
         assertEquals(1, y);
     }
+
 }
 
 

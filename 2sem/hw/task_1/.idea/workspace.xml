@@ -41,22 +41,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.getHead_headFromList_Head">
-    <configuration name="Task1_Tests.check_checkList_pushBack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="check_checkList_pushBack" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task1_Tests.getHead_headFromList_checkHead">
     <configuration name="Task1_Tests.getHead_headFromList_Head" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
       <option name="METHOD_NAME" value="getHead_headFromList_Head" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1_Tests.getHead_headFromList_checkHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="getHead_headFromList_checkHead" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.getHead_headFromList_checkHead" />
         <item itemvalue="JUnit.Task1_Tests.getHead_headFromList_Head" />
         <item itemvalue="JUnit.Task1_Tests.getNumber_getNumberList_checkNumber" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontList_checkNumber" />
         <item itemvalue="JUnit.Task1_Tests.getSize_sizeList_checkSize" />
-        <item itemvalue="JUnit.Task1_Tests.check_checkList_pushBack" />
       </list>
     </recent_temporary>
   </component>
