@@ -46,7 +46,7 @@ public class Task1_Tests extends Assert {
         list.pushFront(1);
         list.pushFront(2);
         int head = ((Node<Integer>)list.getHead()).getData();
-        assertEquals(1, head);
+        assertEquals(2, head);
     }
 
 }

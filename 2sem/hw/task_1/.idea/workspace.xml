@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="add getNumber_getNumberList_tryToGetAnotherNumber">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="error corrected" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +179,35 @@
       <option name="project" value="LOCAL" />
       <updated>1648647651030</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="error corrected">
+      <created>1648648116939</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648648116939</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test complete">
+      <created>1648648148061</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648648148061</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add getHead_headFromList_Head">
+      <created>1648648211932</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648648211932</updated>
+    </task>
+    <task id="LOCAL-00014" summary="error corrected">
+      <created>1648648313327</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648648313327</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,11 +226,12 @@
     <MESSAGE value="add basic class of tests" />
     <MESSAGE value="add create_createList_EmptyIsTrue" />
     <MESSAGE value="add create_createList_EmptyIsFalse" />
-    <MESSAGE value="error corrected" />
-    <MESSAGE value="test complete" />
     <MESSAGE value="add getSize_getSizeFromList_sizeIsCorrect" />
     <MESSAGE value="add pushFront_pushFrontList_checkNumber" />
     <MESSAGE value="add getNumber_getNumberList_tryToGetAnotherNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="add getNumber_getNumberList_tryToGetAnotherNumber" />
+    <MESSAGE value="test complete" />
+    <MESSAGE value="add getHead_headFromList_Head" />
+    <MESSAGE value="error corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="error corrected" />
   </component>
 </project>
