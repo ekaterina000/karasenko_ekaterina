@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab648290-b987-4504-a07e-c6acc7287515" name="Changes" comment="add check_checkList_PushBack" />
+    <list default="true" id="ab648290-b987-4504-a07e-c6acc7287515" name="Changes" comment="test complete" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +129,35 @@
       <option name="project" value="LOCAL" />
       <updated>1648644011534</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="errors corrected">
+      <created>1648644153887</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644153887</updated>
+    </task>
+    <task id="LOCAL-00008" summary="test complete">
+      <created>1648644216191</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644216191</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add getSize_sizeList_checkSize">
+      <created>1648644294105</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644294105</updated>
+    </task>
+    <task id="LOCAL-00010" summary="test complete">
+      <created>1648644321749</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644321749</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,8 +176,10 @@
     <MESSAGE value="создан базовый класс для тестов" />
     <MESSAGE value="hw" />
     <MESSAGE value="add check_checkList_isEmpty" />
-    <MESSAGE value="test complete" />
     <MESSAGE value="add check_checkList_PushBack" />
-    <option name="LAST_COMMIT_MESSAGE" value="add check_checkList_PushBack" />
+    <MESSAGE value="errors corrected" />
+    <MESSAGE value="add getSize_sizeList_checkSize" />
+    <MESSAGE value="test complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="test complete" />
   </component>
 </project>
