@@ -88,10 +88,10 @@ public class Task3_Tests extends Assert {
     }
     @Test
     public void mergeSort_SortedArray_ArrayWithoutChanges(){
-        Integer[] arr = new Integer[]{5,8,9};
+        Integer[] arr = new Integer[]{5,8,9,10};
         MergeSort<Integer> sorter = new MergeSort();
         sorter.sort(arr, new TestComparator());
-        assertArrayEquals(new Integer[]{5,8,9}, arr);
+        assertArrayEquals(new Integer[]{5,8,9,10}, arr);
     }
 
 }
