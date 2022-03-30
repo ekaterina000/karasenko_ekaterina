@@ -62,10 +62,10 @@ public class Task2_Tests extends Assert {
 
 
     @Test
-    public void InsertionSort_SortAlreadySortedArray_DataIsCorrect() {
+    public void InsertionSort_SortAlreadySortedArray_ArrayIsCorrect() {
         InsertionSort<Integer> sorter = new InsertionSort<>();
-        Integer[] insertionArray = {5, 15};
+        Integer[] insertionArray = {7, 87, 32};
         sorter.sort(insertionArray, new TestComparator());
-        assertArrayEquals(new Integer[]{5, 15}, insertionArray);
+        assertArrayEquals(new Integer[]{7, 32, 87}, insertionArray);
     }
 }
