@@ -20,4 +20,13 @@ public class Task1_Tests extends Assert {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
         assertTrue(0 == list.getSize());
     }
+
+    @Test
+    public void pushFront_pushFrontList_checkNumber(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
+        assertTrue(1 == list.getSize());
+    }
+
+    
 }

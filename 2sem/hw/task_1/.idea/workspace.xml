@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="error corrected">
-      <change beforePath="$PROJECT_DIR$/src/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLinkedList.java" afterDir="false" />
+    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="add pushFront_pushFrontList_checkNumber">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.create_createList_EmptyIsFalse">
+  <component name="RunManager" selected="JUnit.Task1_Tests.pushFront_pushFrontList_checkNumber">
     <configuration name="Task1_Tests.create_createList_EmptyIsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,8 +63,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task1_Tests.getSize_getSizeFromList_sizeIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="getSize_getSizeFromList_sizeIsCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1_Tests.pushFront_pushFrontList_checkNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="pushFront_pushFrontList_checkNumber" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontList_checkNumber" />
+        <item itemvalue="JUnit.Task1_Tests.getSize_getSizeFromList_sizeIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.create_createList_EmptyIsFalse" />
         <item itemvalue="JUnit.Task1_Tests.create_createList_EmptyIsTrue" />
       </list>
@@ -117,7 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648647200262</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test complete">
+      <created>1648647255610</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648647255610</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add getSize_getSizeFromList_sizeIsCorrect">
+      <created>1648647340881</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648647340881</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,9 +175,11 @@
     <MESSAGE value="hw" />
     <MESSAGE value="add basic class of tests" />
     <MESSAGE value="add create_createList_EmptyIsTrue" />
-    <MESSAGE value="test complete" />
     <MESSAGE value="add create_createList_EmptyIsFalse" />
     <MESSAGE value="error corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="error corrected" />
+    <MESSAGE value="test complete" />
+    <MESSAGE value="add getSize_getSizeFromList_sizeIsCorrect" />
+    <MESSAGE value="add pushFront_pushFrontList_checkNumber" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pushFront_pushFrontList_checkNumber" />
   </component>
 </project>
