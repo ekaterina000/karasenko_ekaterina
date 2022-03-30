@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="error corrected" />
+    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="add insertListAfter_CreateTwoListsAndUnite_check">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,17 +41,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckHead">
-    <configuration name="Task1_Tests.getTail_tailFromList_checkTail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="getTail_tailFromList_checkTail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_check">
     <configuration name="Task1_Tests.get_PushBackList_CheckFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -80,6 +72,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task1_Tests.insertListAfter_CreateTwoListsAndUnite_check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="insertListAfter_CreateTwoListsAndUnite_check" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task1_Tests.remove_removeInList_removeElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_check" />
         <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckHead" />
         <item itemvalue="JUnit.Task1_Tests.remove_removeInList_removeElement" />
         <item itemvalue="JUnit.Task1_Tests.get_PushBackList_CheckFirst" />
         <item itemvalue="JUnit.Task1_Tests.get_PushFrontList_CheckFirst" />
-        <item itemvalue="JUnit.Task1_Tests.getTail_tailFromList_checkTail" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +307,35 @@
       <option name="project" value="LOCAL" />
       <updated>1648652541955</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="test complete">
+      <created>1648652567837</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1648652567837</updated>
+    </task>
+    <task id="LOCAL-00030" summary="error corrected">
+      <created>1648652727321</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1648652727321</updated>
+    </task>
+    <task id="LOCAL-00031" summary="add insertListAfter_CreateTwoListsAndUnite_CheckHead">
+      <created>1648652751960</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1648652751960</updated>
+    </task>
+    <task id="LOCAL-00032" summary="add insertListAfter_CreateTwoListsAndUnite_check">
+      <created>1648652836116</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1648652836116</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,11 +362,12 @@
     <MESSAGE value="add getTail_tailFromList_Tail" />
     <MESSAGE value="add getTail_tailFromList_checkTail" />
     <MESSAGE value="add get_PushFrontList_CheckFirst" />
-    <MESSAGE value="test complete" />
     <MESSAGE value="add get_PushBackList_CheckFirst" />
     <MESSAGE value="add remove_removeInList_removeElement" />
-    <MESSAGE value="add insertListAfter_CreateTwoListsAndUnite_CheckHead" />
+    <MESSAGE value="test complete" />
     <MESSAGE value="error corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="error corrected" />
+    <MESSAGE value="add insertListAfter_CreateTwoListsAndUnite_CheckHead" />
+    <MESSAGE value="add insertListAfter_CreateTwoListsAndUnite_check" />
+    <option name="LAST_COMMIT_MESSAGE" value="add insertListAfter_CreateTwoListsAndUnite_check" />
   </component>
 </project>
