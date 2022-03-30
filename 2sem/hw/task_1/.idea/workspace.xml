@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="error corrected" />
+    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="add getTail_getTailFromList_getTailIsCorrect">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/127_karasenko_task_1" beforeDir="false" afterPath="$PROJECT_DIR$/127_karasenko_task_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLinkedList.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,7 +48,7 @@
       <recent name="C:\Users\User\Desktop\127_karasenko_ekaterina1\2sem\hw\task_1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.getHead_getHeadFromList_getHeadIsCorrect">
+  <component name="RunManager" selected="JUnit.Task1_Tests.getTail_getTailFromList_getTailIsCorrect">
     <configuration name="Task1_Tests.getHead_getHeadFromList_getHeadIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -97,9 +101,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.getTail_getTailFromList_getTailIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.getHead_getHeadFromList_getHeadIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontItem_isCorrect" />
-        <item itemvalue="JUnit.Task1_Tests.getTail_getTailFromList_getTailIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontValue_pushFrontOK" />
         <item itemvalue="JUnit.Task1_Tests.isEmpty_CreateNotEmptyDLL_isEmptyFalse" />
       </list>
@@ -240,7 +244,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648662505170</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="add getTail_getTailFromList_getTailIsCorrect">
+      <created>1648662536653</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648662536653</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,9 +275,9 @@
     <MESSAGE value="add pushFront_pushFrontItem_isCorrect" />
     <MESSAGE value="errors corrected" />
     <MESSAGE value="test complete" />
-    <MESSAGE value="add getTail_getTailFromList_getTailIsCorrect" />
     <MESSAGE value="add getHead_getHeadFromList_getHeadIsCorrect" />
     <MESSAGE value="error corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="error corrected" />
+    <MESSAGE value="add getTail_getTailFromList_getTailIsCorrect" />
+    <option name="LAST_COMMIT_MESSAGE" value="add getTail_getTailFromList_getTailIsCorrect" />
   </component>
 </project>
