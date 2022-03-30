@@ -44,12 +44,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_check">
-    <configuration name="Task1_Tests.get_PushBackList_CheckFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Task1_Tests.insertListBefore_TryToInsertListBefore_CheckSize">
+    <configuration name="Task1_Tests.insertListAfter_CreateTwoListsAndUnitePartTwo_CheckValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="get_PushBackList_CheckFirst" />
+      <option name="METHOD_NAME" value="insertListAfter_CreateTwoListsAndUnitePartTwo_CheckValues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -75,6 +75,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task1_Tests.insertListBefore_TryToInsertListBefore_CheckSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="insertListBefore_TryToInsertListBefore_CheckSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task1_Tests.remove_removeElement_check" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -85,23 +95,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.remove_removeInList_removeElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="remove_removeInList_removeElement" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.insertListBefore_TryToInsertListBefore_CheckSize" />
+        <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnitePartTwo_CheckValues" />
         <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_check" />
         <item itemvalue="JUnit.Task1_Tests.remove_removeElement_check" />
         <item itemvalue="JUnit.Task1_Tests.insertListAfter_CreateTwoListsAndUnite_CheckHead" />
-        <item itemvalue="JUnit.Task1_Tests.remove_removeInList_removeElement" />
-        <item itemvalue="JUnit.Task1_Tests.get_PushBackList_CheckFirst" />
       </list>
     </recent_temporary>
   </component>
