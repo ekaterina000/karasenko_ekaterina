@@ -72,6 +72,7 @@ public class Task3_Tests extends Assert {
     }
 
     //////////////MergeSort
+
     @Test
     public void mergeSort_UnsortedArray_ArrayIsCorrect(){
         Integer[] arr = new Integer[]{7,2};
