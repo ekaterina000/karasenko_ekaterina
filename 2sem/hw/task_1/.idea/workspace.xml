@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab648290-b987-4504-a07e-c6acc7287515" name="Changes" comment="test complete" />
+    <list default="true" id="ab648290-b987-4504-a07e-c6acc7287515" name="Changes" comment="test complete">
+      <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +181,49 @@
       <option name="project" value="LOCAL" />
       <updated>1648644321749</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add pushFront_pushFrontList_checkNumber">
+      <created>1648644386242</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644386242</updated>
+    </task>
+    <task id="LOCAL-00012" summary="test complete">
+      <created>1648644404513</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644404513</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add getNumber_getNumberList_checkNumber">
+      <created>1648644499482</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644499482</updated>
+    </task>
+    <task id="LOCAL-00014" summary="test complete">
+      <created>1648644521784</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644521785</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add getHead_headFromList_Head">
+      <created>1648644620843</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644620843</updated>
+    </task>
+    <task id="LOCAL-00016" summary="test complete">
+      <created>1648644646243</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648644646243</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +245,9 @@
     <MESSAGE value="add check_checkList_PushBack" />
     <MESSAGE value="errors corrected" />
     <MESSAGE value="add getSize_sizeList_checkSize" />
+    <MESSAGE value="add pushFront_pushFrontList_checkNumber" />
+    <MESSAGE value="add getNumber_getNumberList_checkNumber" />
+    <MESSAGE value="add getHead_headFromList_Head" />
     <MESSAGE value="test complete" />
     <option name="LAST_COMMIT_MESSAGE" value="test complete" />
   </component>
