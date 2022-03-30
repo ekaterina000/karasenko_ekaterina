@@ -7,7 +7,7 @@ public class SelectionSort<T> implements Sort<T> {
                 if(comparator.compare(data[i], data[maxInd]) > 0)
                     maxInd = sortedSize;
             }
-            T tmp = data[data.length - sortedSize];
+            T tmp = data[data.length - 1 - sortedSize];
             data[data.length - sortedSize] = data[maxInd];
             data[maxInd] = tmp;
         }
