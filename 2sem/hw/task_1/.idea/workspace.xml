@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab648290-b987-4504-a07e-c6acc7287515" name="Changes" comment="test complete">
+    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/junit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/127_karasenko_task_1" beforeDir="false" afterPath="$PROJECT_DIR$/127_karasenko_task_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_1/DoubleLinkedList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_1/DummyNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_1/DynamicArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_1/ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_1/Node.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/task_1/Task1_Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/task_1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectId" id="276aXsVVzBndIXPFANKGLDlOisY" />
+  <component name="ProjectId" id="276goMQ8NAj3CX3BWwLwuWCRnfn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -41,214 +49,15 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.getTail_tailFromList_checkTail">
-    <configuration name="Task1_Tests.getHead_headFromList_Head" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="getHead_headFromList_Head" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.getHead_headFromList_checkHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="getHead_headFromList_checkHead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.getNumber_getNumberList_checkNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="getNumber_getNumberList_checkNumber" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.getTail_tailFromList_Tail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="getTail_tailFromList_Tail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.getTail_tailFromList_checkTail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="getTail_tailFromList_checkTail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.Task1_Tests.getTail_tailFromList_checkTail" />
-        <item itemvalue="JUnit.Task1_Tests.getTail_tailFromList_Tail" />
-        <item itemvalue="JUnit.Task1_Tests.getHead_headFromList_checkHead" />
-        <item itemvalue="JUnit.Task1_Tests.getHead_headFromList_Head" />
-        <item itemvalue="JUnit.Task1_Tests.getNumber_getNumberList_checkNumber" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ab648290-b987-4504-a07e-c6acc7287515" name="Changes" comment="" />
-      <created>1648643034218</created>
+      <changelist id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="" />
+      <created>1648646126534</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1648643034218</updated>
+      <updated>1648646126534</updated>
     </task>
-    <task id="LOCAL-00001" summary="создан документ для отчетов по ошибкам">
-      <created>1648643599865</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1648643599865</updated>
-    </task>
-    <task id="LOCAL-00002" summary="создан базовый класс для тестов">
-      <created>1648643665797</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1648643665797</updated>
-    </task>
-    <task id="LOCAL-00003" summary="hw">
-      <created>1648643700987</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1648643700987</updated>
-    </task>
-    <task id="LOCAL-00004" summary="add check_checkList_isEmpty">
-      <created>1648643883781</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1648643883782</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test complete">
-      <created>1648643906732</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1648643906733</updated>
-    </task>
-    <task id="LOCAL-00006" summary="add check_checkList_PushBack">
-      <created>1648644011534</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644011534</updated>
-    </task>
-    <task id="LOCAL-00007" summary="errors corrected">
-      <created>1648644153887</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644153887</updated>
-    </task>
-    <task id="LOCAL-00008" summary="test complete">
-      <created>1648644216191</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644216191</updated>
-    </task>
-    <task id="LOCAL-00009" summary="add getSize_sizeList_checkSize">
-      <created>1648644294105</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644294105</updated>
-    </task>
-    <task id="LOCAL-00010" summary="test complete">
-      <created>1648644321749</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644321749</updated>
-    </task>
-    <task id="LOCAL-00011" summary="add pushFront_pushFrontList_checkNumber">
-      <created>1648644386242</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644386242</updated>
-    </task>
-    <task id="LOCAL-00012" summary="test complete">
-      <created>1648644404513</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644404513</updated>
-    </task>
-    <task id="LOCAL-00013" summary="add getNumber_getNumberList_checkNumber">
-      <created>1648644499482</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644499482</updated>
-    </task>
-    <task id="LOCAL-00014" summary="test complete">
-      <created>1648644521784</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644521785</updated>
-    </task>
-    <task id="LOCAL-00015" summary="add getHead_headFromList_Head">
-      <created>1648644620843</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644620843</updated>
-    </task>
-    <task id="LOCAL-00016" summary="test complete">
-      <created>1648644646243</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1648644646243</updated>
-    </task>
-    <option name="localTasksCounter" value="17" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="создан документ для отчетов по ошибкам" />
-    <MESSAGE value="создан базовый класс для тестов" />
-    <MESSAGE value="hw" />
-    <MESSAGE value="add check_checkList_isEmpty" />
-    <MESSAGE value="add check_checkList_PushBack" />
-    <MESSAGE value="errors corrected" />
-    <MESSAGE value="add getSize_sizeList_checkSize" />
-    <MESSAGE value="add pushFront_pushFrontList_checkNumber" />
-    <MESSAGE value="add getNumber_getNumberList_checkNumber" />
-    <MESSAGE value="add getHead_headFromList_Head" />
-    <MESSAGE value="test complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="test complete" />
   </component>
 </project>

@@ -8,7 +8,7 @@ public class DoubleLinkedList<T> {
     }
 
     public boolean isEmpty() {
-        return size == 0;
+        return dummy == dummy;
     }
     public int getSize() {
         return size;
