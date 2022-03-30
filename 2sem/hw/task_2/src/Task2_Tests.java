@@ -9,6 +9,8 @@ public class Task2_Tests extends Assert {
         }
     }
 
+    ///////////////BubbleSort
+
     @Test
     public void BubbleSort_sortTheSameNumbers_IsCorrect() {
         BubbleSort<Integer> sorter = new BubbleSort<>();
@@ -32,8 +34,24 @@ public class Task2_Tests extends Assert {
         assertArrayEquals(new Integer[]{1, 3, 5}, bubbleArray);
     }
 
+    /////InsertionSort
 
+    @Test
+    public void InsertionSort_SortAlreadySortedArray_ArrayIsCorrect() {
+        InsertionSort<Integer> sorter = new InsertionSort<>();
+        Integer[] insertionArray = {7, 87, 32};
+        sorter.sort(insertionArray, new TestComparator());
+        assertArrayEquals(new Integer[]{7, 32, 87}, insertionArray);
+    }
+    @Test
+    public void InsertionSort_UnsortedArray_ArrayIsCorrect() {
+        InsertionSort<Integer> sorter = new InsertionSort<>();
+        Integer[] insertionArray = {784, 12, 36};
+        sorter.sort(insertionArray, new TestComparator());
+        assertArrayEquals(new Integer[]{12, 36, 784}, insertionArray);
+    }
 
+////////////////SelectionSort
 
     @Test
     public void SelectionSort_InvertedArray_ArrayIsCorrect() {
@@ -57,23 +75,6 @@ public class Task2_Tests extends Assert {
         Integer[] selectionArray = {75,3,94,7};
         sorter.sort(selectionArray, new TestComparator());
         assertArrayEquals(new Integer[]{3, 7, 75, 94}, selectionArray);
-    }
-
-
-
-    @Test
-    public void InsertionSort_SortAlreadySortedArray_ArrayIsCorrect() {
-        InsertionSort<Integer> sorter = new InsertionSort<>();
-        Integer[] insertionArray = {7, 87, 32};
-        sorter.sort(insertionArray, new TestComparator());
-        assertArrayEquals(new Integer[]{7, 32, 87}, insertionArray);
-    }
-    @Test
-    public void InsertionSort_UnsortedArray_ArrayIsCorrect() {
-        InsertionSort<Integer> sorter = new InsertionSort<>();
-        Integer[] insertionArray = {784, 12, 36};
-        sorter.sort(insertionArray, new TestComparator());
-        assertArrayEquals(new Integer[]{12, 36, 784}, insertionArray);
     }
 }
 
