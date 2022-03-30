@@ -28,4 +28,5 @@ public class Task1_Tests extends Assert {
         list.pushFront(2);
         assertEquals(2, ((Node<Integer>) list.getHead()).getData().intValue());
     }
+
 }
