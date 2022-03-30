@@ -8,6 +8,9 @@ public class Task3_Tests extends Assert {
             return first - second;
         }
     }
+
+   /////////////QuickSort
+
     @Test
     public void quickSort_UnsortedArray_ArrayIsCorrect(){
         Integer[] arr = new Integer[]{9,2};
@@ -28,5 +31,15 @@ public class Task3_Tests extends Assert {
         QuickSort<Integer> sorter = new QuickSort();
         sorter.sort(arr, new TestComparator());
         assertArrayEquals(new Integer[]{2,2,3,4,4}, arr);
+    }
+
+    /////////////HeapSort
+
+    @Test
+    public void heapSort_UnsortedArray_ArrayIsCorrect(){
+        Integer[] arr = new Integer[]{4,2};
+        HeapSort<Integer> sorter = new HeapSort();
+        sorter.sort(arr, new TestComparator());
+        assertArrayEquals(new Integer[]{2, 4}, arr);
     }
 }
