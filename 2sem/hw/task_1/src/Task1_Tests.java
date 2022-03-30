@@ -57,6 +57,14 @@ public class Task1_Tests extends Assert {
         assertEquals(1, y);
     }
 
+    @Test
+    public void getTail_tailFromList_Tail() {
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(3);
+        list.pushFront(2);
+        int t = ((Node<Integer>) list.getTail()).getData();
+        assertEquals(2, t);
+    }
 }
 
 
