@@ -24,8 +24,10 @@ public class Task1_Tests extends Assert {
     @Test
     public void pushFront_pushFrontList_checkNumber(){
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
         assertTrue(1 == list.getSize());
     }
+
 
     @Test
     public void getNumber_getNumberList_tryToGetAnotherNumber(){
@@ -74,7 +76,7 @@ public class Task1_Tests extends Assert {
         list.pushBack(2);
         list.pushBack(3);
         int tail = ((Node<Integer>)list.getTail()).getData();
-        assertEquals(1, tail);
+        assertEquals(2, tail);
     }
 
     @Test
@@ -95,6 +97,15 @@ public class Task1_Tests extends Assert {
         list.pushBack(1);
 
         int num = ((Node<Integer>)list.get(0)).getData();
-        assertEquals(1, num);
+        assertEquals(2, num);
+    }
+    @Test
+    public void remove_removeInList_removeElement(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(1);
+        list.pushFront(2);
+        list.pushFront(3);
+        list.remove(list.get(0));
+        assertEquals(2, list.getSize());
     }
 }

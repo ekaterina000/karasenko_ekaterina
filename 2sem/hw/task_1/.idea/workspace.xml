@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="error corrected" />
+    <list default="true" id="0d79828e-b7a4-455c-9d85-bb3d65314dc0" name="Changes" comment="add get_PushBackList_CheckFirst">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,22 +42,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.get_PushFrontList_CheckFirst">
-    <configuration name="Task1_Tests.create_createList_EmptyIsFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Task1_Tests.get_PushBackList_CheckFirst">
+    <configuration name="Task1_Tests.getNumber_getNumberList_tryToGetAnotherNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="create_createList_EmptyIsFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task1_Tests.getSize_getSizeFromList_sizeIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="getSize_getSizeFromList_sizeIsCorrect" />
+      <option name="METHOD_NAME" value="getNumber_getNumberList_tryToGetAnotherNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -65,6 +58,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
       <option name="METHOD_NAME" value="getTail_tailFromList_checkTail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1_Tests.get_PushBackList_CheckFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="get_PushBackList_CheckFirst" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.get_PushBackList_CheckFirst" />
         <item itemvalue="JUnit.Task1_Tests.get_PushFrontList_CheckFirst" />
         <item itemvalue="JUnit.Task1_Tests.getTail_tailFromList_checkTail" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontList_checkNumber" />
-        <item itemvalue="JUnit.Task1_Tests.getSize_getSizeFromList_sizeIsCorrect" />
-        <item itemvalue="JUnit.Task1_Tests.create_createList_EmptyIsFalse" />
+        <item itemvalue="JUnit.Task1_Tests.getNumber_getNumberList_tryToGetAnotherNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +266,28 @@
       <option name="project" value="LOCAL" />
       <updated>1648649904466</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="error corrected">
+      <created>1648649921827</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648649921827</updated>
+    </task>
+    <task id="LOCAL-00024" summary="test complete">
+      <created>1648649966260</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648649966260</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add get_PushBackList_CheckFirst">
+      <created>1648650041233</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648650041233</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,12 +310,13 @@
     <MESSAGE value="add pushFront_pushFrontList_checkNumber" />
     <MESSAGE value="add getNumber_getNumberList_tryToGetAnotherNumber" />
     <MESSAGE value="add getHead_headFromList_Head" />
-    <MESSAGE value="test complete" />
     <MESSAGE value="add getHead_headFromList_checkHead" />
     <MESSAGE value="add getTail_tailFromList_Tail" />
     <MESSAGE value="add getTail_tailFromList_checkTail" />
     <MESSAGE value="add get_PushFrontList_CheckFirst" />
     <MESSAGE value="error corrected" />
-    <option name="LAST_COMMIT_MESSAGE" value="error corrected" />
+    <MESSAGE value="test complete" />
+    <MESSAGE value="add get_PushBackList_CheckFirst" />
+    <option name="LAST_COMMIT_MESSAGE" value="add get_PushBackList_CheckFirst" />
   </component>
 </project>
