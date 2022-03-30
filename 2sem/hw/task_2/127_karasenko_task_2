@@ -3,3 +3,4 @@ BubbleSort|6|if(comparator.compare(data[i - 1], data[i]) < 0) -> if(comparator.c
 BubbleSort|4|for(int sps = 1; sps < data.length - 1; ++sps) -> for(int sps = 0; sps < data.length - 1; ++sps)|BubbleSort_SortData_DataIsCorrect
 
 SelectionSort|5|int maxInd = 1; -> int maxInd = 0;|SelectionSort_InvertedArray_ArrayIsCorrect
+SelectionSort|4|for(int sortedSize = 1; sortedSize < data.length - 1; ++sortedSize) -> for(int sortedSize = 0; sortedSize < data.length - 1; ++sortedSize)|SelectionSort_UnsortedArray_ArrayIsCorrect
