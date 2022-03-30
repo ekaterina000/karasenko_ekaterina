@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="error corrected">
-      <change beforePath="$PROJECT_DIR$/127_karasenko_task_1" beforeDir="false" afterPath="$PROJECT_DIR$/127_karasenko_task_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
-    </list>
+    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="error corrected" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +212,35 @@
       <option name="project" value="LOCAL" />
       <updated>1648661851314</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="error corrected">
+      <created>1648662300635</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648662300635</updated>
+    </task>
+    <task id="LOCAL-00016" summary="error corrected">
+      <created>1648662417292</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648662417292</updated>
+    </task>
+    <task id="LOCAL-00017" summary="error corrected">
+      <created>1648662449504</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1648662449504</updated>
+    </task>
+    <task id="LOCAL-00018" summary="error corrected">
+      <created>1648662505170</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648662505170</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,8 +264,8 @@
     <MESSAGE value="add pushFront_pushFrontItem_isCorrect" />
     <MESSAGE value="errors corrected" />
     <MESSAGE value="test complete" />
-    <MESSAGE value="add getHead_getHeadFromList_getHeadIsCorrect" />
     <MESSAGE value="add getTail_getTailFromList_getTailIsCorrect" />
+    <MESSAGE value="add getHead_getHeadFromList_getHeadIsCorrect" />
     <MESSAGE value="error corrected" />
     <option name="LAST_COMMIT_MESSAGE" value="error corrected" />
   </component>
