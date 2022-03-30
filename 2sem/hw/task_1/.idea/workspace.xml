@@ -47,17 +47,7 @@
       <recent name="C:\Users\User\Desktop\127_karasenko_ekaterina1\2sem\hw\task_1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.pushFront_pushFrontValue_pushFrontOK">
-    <configuration name="Task1_Tests.check_checkList_isEmptyFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="check_checkList_isEmptyFalse" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.Task1_Tests.pushFront_pushFrontItem_isCorrect">
     <configuration name="Task1_Tests.isEmpty_CreateNotEmptyDLL_isEmptyFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -73,6 +63,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
       <option name="METHOD_NAME" value="pushBack_pushToEmptyList_checkSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1_Tests.pushFront_pushFrontItem_isCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="pushFront_pushFrontItem_isCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontItem_isCorrect" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontValue_pushFrontOK" />
         <item itemvalue="JUnit.Task1_Tests.isEmpty_CreateNotEmptyDLL_isEmptyFalse" />
         <item itemvalue="JUnit.Task1_Tests.pushBack_pushToEmptyList_checkSize" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushToEmptyList_checkSize" />
-        <item itemvalue="JUnit.Task1_Tests.check_checkList_isEmptyFalse" />
       </list>
     </recent_temporary>
   </component>
