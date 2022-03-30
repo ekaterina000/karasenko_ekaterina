@@ -49,4 +49,14 @@ public class Task1_Tests extends Assert {
         assertEquals(2, head);
     }
 
+
+    @Test
+    public void getHead_headFromList_checkHead(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushBack(2);
+        list.pushBack(1);
+        int head = ((Node<Integer>)list.getHead()).getData();
+        assertEquals(1, head);
+    }
+
 }
