@@ -37,4 +37,18 @@ public class Task2_Tests extends Assert {
 
         assertArrayEquals(new Integer[]{1, 3, 5}, bubbleArray);
     }
+
+
+
+
+    @Test
+    public void SelectionSort_InvertedArray_ArrayIsCorrect() {
+        SelectionSort<Integer> sorter = new SelectionSort<>();
+        Integer[] selectionArray = {4, 2, 1};
+
+        sorter.sort(selectionArray, new TestComparator());
+
+        assertArrayEquals(new Integer[]{1, 2, 4}, selectionArray);
+    }
+
 }
