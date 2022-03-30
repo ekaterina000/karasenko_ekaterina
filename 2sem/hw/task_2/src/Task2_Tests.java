@@ -27,4 +27,13 @@ public class Task2_Tests extends Assert {
 
         assertArrayEquals(new Integer[]{2, 4, 6}, bubbleArray);
     }
+    @Test
+    public void BubbleSort_SortData_DataIsCorrect() {
+        BubbleSort<Integer> sorter = new BubbleSort<>();
+        Integer[] bubbleArray = {2, 3, 1};
+
+        sorter.sort(bubbleArray, new TestComparator());
+
+        assertArrayEquals(new Integer[]{1, 2, 3}, bubbleArray);
+    }
 }
