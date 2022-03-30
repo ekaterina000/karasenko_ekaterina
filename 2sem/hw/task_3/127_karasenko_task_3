@@ -10,3 +10,5 @@ HeapSort|17|for (int i = start; i >= 1; --i) -> for (int i = start; i >= 0; --i)
 HeapSort|18|siftDown(i, 2 * i, 2 * i + 1, data.length); -> siftDown(i, 2 * i+1, 2 * i + 2, data.length);|heapSort_UnsortedArray3_ArrayIsCorrect
 HeapSort|38|siftDown(right, 2 * right + 1, 2 * right + 2, data.length); -> siftDown(right, 2 * right + 1, 2 * right + 2, size);|heapSort_UnsortedArray_ArrayIsCorrect2
 HeapSort|34|siftDown(left, 2 * left, 2 * left + 1, size); -> siftDown(left, 2 * left+1, 2 * left + 2, size);|heapSort_UnsortedArray_ArrayIsCorrect3
+
+MergeSort|19|merge(buffer, sorting, begin, middle - begin, end - middle); -> merge(buffer, sorting, begin, middle - begin+1, end - middle);|mergeSort_UnsortedArray_ArrayIsCorrect
