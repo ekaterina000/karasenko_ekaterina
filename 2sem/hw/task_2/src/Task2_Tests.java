@@ -18,5 +18,13 @@ public class Task2_Tests extends Assert {
 
         assertArrayEquals(new Integer[]{1, 1, 1}, bubbleArray);
     }
+    @Test
+    public void BubbleSort_rightOrder_NumbersInRightOrder() {
+        BubbleSort<Integer> sorter = new BubbleSort<>();
+        Integer[] bubbleArray = {2, 4, 6};
 
+        sorter.sort(bubbleArray, new TestComparator());
+
+        assertArrayEquals(new Integer[]{2, 4, 6}, bubbleArray);
+    }
 }
