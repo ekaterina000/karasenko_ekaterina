@@ -18,4 +18,5 @@ public class Task1_Tests extends Assert {
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
         assertTrue(0 == list.getSize());
     }
+
 }

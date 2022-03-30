@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ab648290-b987-4504-a07e-c6acc7287515" name="Changes" comment="add check_checkList_PushBack" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +39,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.check_checkList_pushBack">
+  <component name="RunManager" selected="JUnit.Task1_Tests.getSize_sizeList_checkSize">
     <configuration name="Task1_Tests.check_checkList_isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -57,8 +60,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task1_Tests.getSize_sizeList_checkSize" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="getSize_sizeList_checkSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.getSize_sizeList_checkSize" />
         <item itemvalue="JUnit.Task1_Tests.check_checkList_pushBack" />
         <item itemvalue="JUnit.Task1_Tests.check_checkList_isEmpty" />
       </list>
