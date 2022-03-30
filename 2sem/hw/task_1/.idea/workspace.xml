@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="add pushBack_pushToEmptyList_checkSize">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
-    </list>
+    <list default="true" id="1dc782d3-1fa6-452c-a5ea-3a16f6933024" name="Changes" comment="errors corrected" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648660264678</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add pushFront_pushFrontItem_isCorrect">
+      <created>1648660846709</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648660846709</updated>
+    </task>
+    <task id="LOCAL-00009" summary="errors corrected">
+      <created>1648661143586</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648661143586</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,6 +199,8 @@
     <MESSAGE value="error corrected" />
     <MESSAGE value="add pushFront_pushToEmptyList_checkSize" />
     <MESSAGE value="add pushBack_pushToEmptyList_checkSize" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pushBack_pushToEmptyList_checkSize" />
+    <MESSAGE value="add pushFront_pushFrontItem_isCorrect" />
+    <MESSAGE value="errors corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="errors corrected" />
   </component>
 </project>

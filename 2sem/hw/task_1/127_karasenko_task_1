@@ -1,4 +1,3 @@
 DoubleLinkedList |11| return dummy == dummy -> return dummy == dummy.getNext();|check_checkList_isEmptyFalse
-DoubleLinkedList|28|cur = cur.getPrev(); -> cur = cur.getNext();|pushFront_pushFrontItem_isCorrect
-Node|13|this.next = prev; -> this.next = next;|pushFront_pushFrontItem_isCorrect
-Node|14|this.prev = next; -> this.prev = prev;|pushFront_pushFrontItem_isCorrect
+DoubleLinkedList.java|17|return dummy.getPrev();->return dummy.getNext();|pushFront_pushFrontItem_isCorrect
+
