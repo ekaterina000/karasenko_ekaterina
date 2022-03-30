@@ -8,4 +8,14 @@ public class Task2_Tests extends Assert {
             return first - second;
         }
     }
+
+    @Test
+    public void BubbleSort_sortTheSameNumbers_IsCorrect() {
+        BubbleSort<Integer> sorter = new BubbleSort<>();
+        Integer[] bubbleArray = {1, 1, 1};
+
+        sorter.sort(bubbleArray, new TestComparator());
+
+        assertArrayEquals(new Integer[]{1, 1, 1}, bubbleArray);
+    }
 }
