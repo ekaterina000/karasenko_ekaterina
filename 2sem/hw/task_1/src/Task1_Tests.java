@@ -46,4 +46,5 @@ public class Task1_Tests extends Assert{
         assertEquals(30, head.getData().intValue());
         assertEquals(20, tail.getData().intValue());
     }
+
 }
