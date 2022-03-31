@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2117eab1-e73f-4a06-9235-ed736077e2f8" name="Changes" comment="test complete">
-      <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
-    </list>
+    <list default="true" id="2117eab1-e73f-4a06-9235-ed736077e2f8" name="Changes" comment="add pushFront_pushFrontThreeElem_ListIsCorrect" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,12 +39,22 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.pushFront_pushFrontTwoElem_EqualsTwo">
+  <component name="RunManager" selected="JUnit.Task1_Tests.pushFront_pushFrontThreeElem_ListIsCorrect">
     <configuration name="Task1_Tests.getNext_getNextData_ListIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
       <option name="METHOD_NAME" value="getNext_getNextData_ListIsCorrect" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1_Tests.pushFront_pushFrontThreeElem_ListIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="METHOD_NAME" value="pushFront_pushFrontThreeElem_ListIsCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -84,6 +92,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontThreeElem_ListIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontTwoElem_EqualsTwo" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontToEmptyList_ListIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontToEmptyList_getSize" />
@@ -135,7 +144,35 @@
       <option name="project" value="LOCAL" />
       <updated>1648737676516</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add pushFront_pushFrontToEmptyList_getSize">
+      <created>1648737779846</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648737779846</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add pushFront_pushFrontToEmptyList_ListIsCorrect">
+      <created>1648737897442</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648737897442</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add pushFront_pushFrontTwoElem_EqualsTwo">
+      <created>1648738020979</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648738020979</updated>
+    </task>
+    <task id="LOCAL-00009" summary="add pushFront_pushFrontThreeElem_ListIsCorrect">
+      <created>1648738157364</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648738157364</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +191,10 @@
     <MESSAGE value="add getNext_getNextData_ListIsCorrect" />
     <MESSAGE value="error corrected" />
     <MESSAGE value="test complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="test complete" />
+    <MESSAGE value="add pushFront_pushFrontToEmptyList_getSize" />
+    <MESSAGE value="add pushFront_pushFrontToEmptyList_ListIsCorrect" />
+    <MESSAGE value="add pushFront_pushFrontTwoElem_EqualsTwo" />
+    <MESSAGE value="add pushFront_pushFrontThreeElem_ListIsCorrect" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pushFront_pushFrontThreeElem_ListIsCorrect" />
   </component>
 </project>
