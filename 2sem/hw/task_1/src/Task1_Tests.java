@@ -28,4 +28,11 @@ public class Task1_Tests extends Assert{
         assertEquals(10, tail.getData().intValue());
         assertEquals(head, tail);
     }
+    @Test
+    public void pushFront_pushFrontTwoElem_EqualsTwo(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(20);
+        list.pushFront(10);
+        assertEquals(2, list.getSize());
+    }
 }
