@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2117eab1-e73f-4a06-9235-ed736077e2f8" name="Changes" comment="создан базовый класс для тестов">
-      <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
-    </list>
+    <list default="true" id="2117eab1-e73f-4a06-9235-ed736077e2f8" name="Changes" comment="error corrected" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,7 +69,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648736781113</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add getNext_getNextData_ListIsCorrect">
+      <created>1648737245456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648737245456</updated>
+    </task>
+    <task id="LOCAL-00003" summary="error corrected">
+      <created>1648737435195</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648737435195</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +99,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="создан базовый класс для тестов" />
-    <option name="LAST_COMMIT_MESSAGE" value="создан базовый класс для тестов" />
+    <MESSAGE value="add getNext_getNextData_ListIsCorrect" />
+    <MESSAGE value="error corrected" />
+    <option name="LAST_COMMIT_MESSAGE" value="error corrected" />
   </component>
 </project>

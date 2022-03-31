@@ -11,7 +11,7 @@ public class Node<T> implements ListNode<T> {
     public Node(T data, ListNode<T> next, ListNode<T> prev) {
         this.data = data;
         this.next = next;
-        this.prev = next;
+        this.prev = prev;
         next.setPrev(this);
         prev.setNext(this);
     }
