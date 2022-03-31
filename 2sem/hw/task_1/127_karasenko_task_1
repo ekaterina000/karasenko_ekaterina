@@ -1,0 +1,1 @@
+Node|13|this.next = prev; -> this.next = next;|getNext_getDataOfNextElem_ElemIsCorrect()|getNext_getNextData_ListIsCorrect

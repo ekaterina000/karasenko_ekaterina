@@ -10,7 +10,7 @@ public class Node<T> implements ListNode<T> {
     }
     public Node(T data, ListNode<T> next, ListNode<T> prev) {
         this.data = data;
-        this.next = prev;
+        this.next = next;
         this.prev = next;
         next.setPrev(this);
         prev.setNext(this);
