@@ -44,7 +44,13 @@ public class Task1_Tests extends Assert{
         Node<Integer> head = (Node<Integer>) list.getHead();
         Node<Integer> tail = (Node<Integer>) list.getTail();
         assertEquals(30, head.getData().intValue());
-        assertEquals(20, tail.getData().intValue());
+        assertEquals(10, tail.getData().intValue());
+    }
+    @Test
+    public void pushBack_pushBackToEmptyList_ListIsCorrect(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushBack(10);
+        assertEquals(1, list.getSize());
     }
 
 }
