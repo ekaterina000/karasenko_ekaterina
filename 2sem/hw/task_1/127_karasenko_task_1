@@ -1,3 +1,4 @@
 Node|13|this.next = prev; -> this.next = next;|getNext_getNextData_ListIsCorrect
 Node|14|this.prev = next; -> this.prev = prev;|getNext_getNextData_ListIsCorrect
 DoubleLinkedList|17|return dummy.getPrev(); -> return dummy.getNext();|pushFront_pushFrontThreeElem_ListIsCorrect
+DoubleLinkedList|20|return dummy.getNext(); -> return dummy.getPrev();|pushFront_pushFrontThreeElem_ListIsCorrect

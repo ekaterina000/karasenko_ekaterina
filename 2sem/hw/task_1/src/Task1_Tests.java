@@ -38,14 +38,11 @@ public class Task1_Tests extends Assert{
     @Test
     public void pushFront_pushFrontThreeElem_ListIsCorrect(){
         DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
-
         list.pushFront(20);
         list.pushFront(10);
         list.pushFront(30);
-
         Node<Integer> head = (Node<Integer>) list.getHead();
         Node<Integer> tail = (Node<Integer>) list.getTail();
-
         assertEquals(30, head.getData().intValue());
         assertEquals(20, tail.getData().intValue());
     }
