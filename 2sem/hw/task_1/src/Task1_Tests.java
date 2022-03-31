@@ -12,4 +12,10 @@ public class Task1_Tests extends Assert{
         assertEquals(3, next.getData().intValue());
         assertEquals(1, prev.getData().intValue());
     }
+    @Test
+    public void pushFront_pushFrontToEmptyList_getSize(){
+        DoubleLinkedList<Integer> list = new DoubleLinkedList<>();
+        list.pushFront(10);
+        assertEquals(1, list.getSize());
+    }
 }
