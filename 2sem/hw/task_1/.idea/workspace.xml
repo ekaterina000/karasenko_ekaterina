@@ -42,12 +42,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.pushFront_pushFrontThreeElem_ListIsCorrect">
-    <configuration name="Task1_Tests.getNext_getNextData_ListIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.Task1_Tests.pushBack_pushBackToEmptyList_ListIsCorrect">
+    <configuration name="Task1_Tests.pushBack_pushBackToEmptyList_ListIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="getNext_getNextData_ListIsCorrect" />
+      <option name="METHOD_NAME" value="pushBack_pushBackToEmptyList_ListIsCorrect" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -95,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests.pushBack_pushBackToEmptyList_ListIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontThreeElem_ListIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontTwoElem_EqualsTwo" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontToEmptyList_ListIsCorrect" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontToEmptyList_getSize" />
-        <item itemvalue="JUnit.Task1_Tests.getNext_getNextData_ListIsCorrect" />
       </list>
     </recent_temporary>
   </component>
