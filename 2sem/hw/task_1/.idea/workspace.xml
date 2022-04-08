@@ -47,7 +47,16 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="JUnit.Task1_Tests.delete_IndexOutOfRound_ReceivingIndexOutOfRoundExclusion">
+  <component name="RunManager" selected="JUnit.Task1_Tests">
+    <configuration name="Task1_Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="task_1" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task1_Tests.delete_IndexOutOfRound_ReceivingIndexOutOfRoundExclusion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="task_1" />
       <option name="PACKAGE_NAME" value="" />
@@ -88,23 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task1_Tests.pushFront_pushFrontThreeElem_ListIsCorrect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="task_1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Task1_Tests" />
-      <option name="METHOD_NAME" value="pushFront_pushFrontThreeElem_ListIsCorrect" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Task1_Tests" />
         <item itemvalue="JUnit.Task1_Tests.delete_IndexOutOfRound_ReceivingIndexOutOfRoundExclusion" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_EmptyList_WhenTryingToGetElementNumberOneAnErrorOccurs" />
         <item itemvalue="JUnit.Task1_Tests.pushFront_EmptyList_False" />
         <item itemvalue="JUnit.Task1_Tests.pushBack_pushBackToEmptyList_ListIsCorrect" />
-        <item itemvalue="JUnit.Task1_Tests.pushFront_pushFrontThreeElem_ListIsCorrect" />
       </list>
     </recent_temporary>
   </component>
