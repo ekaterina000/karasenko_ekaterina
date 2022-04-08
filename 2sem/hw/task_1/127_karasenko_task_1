@@ -1,4 +1,32 @@
-Node|13|this.next = prev; -> this.next = next;|getNext_getNextData_ListIsCorrect
-Node|14|this.prev = next; -> this.prev = prev;|getNext_getNextData_ListIsCorrect
-DoubleLinkedList|17|return dummy.getPrev(); -> return dummy.getNext();|pushFront_pushFrontThreeElem_ListIsCorrect
-DoubleLinkedList|20|return dummy.getNext(); -> return dummy.getPrev();|pushFront_pushFrontThreeElem_ListIsCorrect
+DoubleLinkedList.java | 11 | return dummy == dummy; -> return size == 0; | pushFront_EmptyList_False
+DoubleLinkedList.java | 24 | if(index < 0 || index > size) -> if(index < 0 || index >= size) | pushFront_EmptyList_WhenTryingToGetElementNumberOneAnErrorOccurs
+DoubleLinkedList.java | 28 | cur = cur.getPrev(); -> cur = cur.getNext(); | pushElements_ThreeElements_SecondElementIsCorrect
+DoubleLinkedList.java | 33 | --size; -> ++size; | pushElements_ThreeElements_SecondElementIsCorrect
+DoubleLinkedList.java | 17 | return dummy.getPrev(); -> return dummy.getNext(); | pushElements_ThreeElements_HeadIsCorrect
+DoubleLinkedList.java | 20 | return dummy.getNext(); -> return dummy.getPrev(); | pushElements_ThreeElements_TailIsCorrect
+DoubleLinkedList.java | 41 | return insertBefore(getTail(), data); -> return insertAfter(getTail(), data); | pushElements_ThreeElements_TailIsCorrect
+Node.java | 13 | this.next = prev; -> this.next = next; | pushElements_ThreeElements_TailIsCorrect
+Node.java | 14 | this.prev = next; -> this.prev = prev; |pushElements_ThreeElements_TailIsCorrect
+DoubleLinkedList.java | 44 | return insertBefore(getTail(), data); -> return insertBefore(getHead(), data); | pushElements_BackThreeElements_SecondElementIsCorrect
+DoubleLinkedList.java | 47 | node.getPrev().setPrev(node.getNext()); -> node.getPrev().setNext(node.getNext()); | deleteElement_FirstElement_FirstElementIsCorrect
+DoubleLinkedList.java | 48 | node.getNext().setNext(node.getPrev()); -> node.getNext().setPrev(node.getPrev()); | deleteElement_FirstElement_FirstElementIsCorrect
+DoubleLinkedList.java | 59 |  -> size += list.getSize(); | pasteList_afterFirstElement_SizeIsCorrect
+DoubleLinkedList.java | 55 | list.getHead().setNext(node); -> list.getHead().setPrev(node); | pasteList_afterFirstElement_ElementsAreCorrect
+DoubleLinkedList.java | 56 | list.getTail().setPrev(node.getNext()); -> list.getTail().setNext(node.getNext()); | pasteList_afterFirstElement_ElementsAreCorrect
+DoubleLinkedList.java | 70 | -> size += list.getSize(); | pasteList_beforeFirstElement_SizeIsTrue
+DoubleLinkedList.java | 66 | list.getHead().setNext(node.getPrev()); -> list.getHead().setPrev(node.getPrev()); | pasteList_beforeFirstElement_ElementsAreTrue
+DoubleLinkedList.java | 67 | list.getTail().setPrev(node); -> list.getTail().setNext(node); | pasteList_beforeFirstElement_ElementsAreTrue
+DynamicArray.java | 11 | size = 1; -> size = DefaultSize; | generateArray_withoutSize_EqualsDefault
+DynamicArray.java | 30 | if(index < 0 || index > size) -> if(index < 0 || index >= size) | generateArray_receivingValueOutOfRange_IndexOutOfRange
+DynamicArray.java | 35 | if(index < 0 || index > size) -> if(index < 0 || index >= size) | generateArray_SettingValueOutOfRange_ReceivingIndexOutOfRange
+DynamicArray.java | 15 | data = new Object[capacity]; -> data = new Object[size]; | establishValues_EstablishThreeValues_ValuesAreTrue
+DynamicArray.java | 21 | if(newSize > 0) -> if(newSize < 0) | changeSize_ChanceSizeArray_SizeIsTrue
+DynamicArray.java | 27 | newSize = size; -> size = newSize; | changeSize_ChanceSizeArray_SizeIsTrue
+DynamicArray.java | 40 | if(index < 0 || index > size) -> if(index < 0 || index >= size) | paste_PasteMeaningOutOfRange_ReceivingIndexOutOfRange
+DynamicArray.java | 42 | (capacity < size) {  -> if(capacity <= size) { | paste_PasteMeaning_MeaningAreTrue
+DynamicArray.java | 49 | data[size] = value; -> data[index] = value; | paste_PasteMeaning_MeaningAreTrue
+DynamicArray.java | 52 | if(capacity < size) { -> if(capacity <= size) { | pushBack_Meaning_MeaningsAreTrue
+DynamicArray.java | 56 | data[capacity] = value; -> data[size] = value; | pushBack_Meaning_MeaningsAreTrue
+DynamicArray.java | 60 | if(size < 0) -> if(size <= 0) | leanBack_fromEmptyArray_ReceivingUnsupportedTransactionsExclusion
+DynamicArray.java | 66 | if(index < 0 || index > size) -> if(index < 0 || index >= size) | delete_IndexOutOfRound_ReceivingIndexOutOfRoundExclusion
+
