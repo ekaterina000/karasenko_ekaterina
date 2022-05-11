@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2117eab1-e73f-4a06-9235-ed736077e2f8" name="Changes" comment="hw">
+    <list default="true" id="2117eab1-e73f-4a06-9235-ed736077e2f8" name="Changes" comment="task_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/127_karasenko_task_1" beforeDir="false" afterPath="$PROJECT_DIR$/127_karasenko_task_1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DoubleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoubleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DummyNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DummyNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynamicArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynamicArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Task1_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task1_Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +35,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lesson220329" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -221,7 +215,21 @@
       <option name="project" value="LOCAL" />
       <updated>1648932018489</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="task_1">
+      <created>1649428500622</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1649428500622</updated>
+    </task>
+    <task id="LOCAL-00017" summary="task_1">
+      <created>1649428534628</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1649428534628</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -247,6 +255,7 @@
     <MESSAGE value="error corrected" />
     <MESSAGE value="add pushBack_pushBackToEmptyList_ListIsCorrect" />
     <MESSAGE value="hw" />
-    <option name="LAST_COMMIT_MESSAGE" value="hw" />
+    <MESSAGE value="task_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="task_1" />
   </component>
 </project>
